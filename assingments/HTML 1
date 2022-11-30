@@ -30,3 +30,22 @@
     The class attribute can be used on any HTML element.
     The class name is case sensitive. 
     Different HTML elements can point to the same class name. 
+
+6] What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML elements? 
+=> HTML id attributes: The id attribute is a unique identifier that is used to specify the document.
+                       the id attribute is written using the # symbol followed by id.
+                   Ex: <element id="id_name">
+   HTML class attributes: The class attribute is used to specify one or more class names for an HTML element.
+                          The class name in CSS stylesheet using “.” symbol.
+                      Ex: <elemet class="class_name">
+7] What are the various formatting tags in HTML?
+=> <b> -      define bold text
+   <em> -     define emphasized text
+   <i>  -     define a part of text in an alternate voice or mood 
+   <small> -  define smaller text
+   <strong> - define important text
+   <sub> -    define subscripted text
+   <sup> -    define superscripted text 
+   <ins> -    define inserted text 
+   <del> -    define deleted text 
+   <mark> -   define marksed/highlighted text  
