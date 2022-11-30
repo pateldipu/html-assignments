@@ -1,0 +1,32 @@
+1] Are the HTML tags and elements the same thing?
+=> HTML tags: Tags are starting and ending part of an HTML element.
+           ex: <b> </b>
+   HTML elemet: whatever written within tag are html element.
+           Ex: <input>,<hr>,<link>,<img>
+
+2] what is tag and attributes in html?
+=> HTML tags: Tags are starting and ending part of an HTML element.         
+          Ex: <p> </P>
+   HTML attributes:Attributes contain additional pieces of information. 
+                   Attributes take the form of an opening tag and additional info is placed inside.       
+                Ex: <img src="mydog.jpg" alt="A photo of my dog.">
+
+3] what are void element in HTML?
+=> A void element is an element whose content model never allows it to have contents under any circumstances. 
+   Void elements can have attributes. The following is a complete list of the void elements in HTML : area , base , br , col , command , embed , hr , img , input , link , meta , param , source , track , wbr. 
+
+4] What are HTML Entities?
+=> Some charter are reserved in HTML.
+   Character entities are used to display reserved characters in HTML.            
+   Ex: &nbps, &it, &gt 
+   
+5] What are different types of lists in HTML? • What is the ‘class’ attribute in HTML?
+=> There are 3 types of lis.
+    i) Unordered List 
+   ii) Ordered List 
+  iii) Description List  
+ => The HTML class attribute specifies one or more class names for an element.
+    Classes are used by CSS and JavaScript to select and access specific elements.
+    The class attribute can be used on any HTML element.
+    The class name is case sensitive. 
+    Different HTML elements can point to the same class name. 
