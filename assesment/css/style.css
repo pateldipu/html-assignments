@@ -1,0 +1,1264 @@
+*{box-sizing: border-box;margin: 0;padding:0 }
+  
+
+   /*  header start  */
+
+
+.header
+{
+    height: 600px;
+    width:100% ;
+    background: url(C:/Users/Asus/Documents/pateldipu_github/assesment/img/image1.jpg);
+    background-size: cover;
+    position: relative;
+}
+.header .nav
+{
+    height: 100px;
+    width: 100%;
+    background: rgba(0,0,0,0.35);
+    display: flex;
+}
+.header .nav .edu
+{
+    height: 100px;
+    width: 40%;
+   /* background: lightblue; */
+}
+.header .nav .edu h1
+{
+    color: white;
+    padding: 30px 0 0 50px;
+}
+.header .nav .icon i 
+{
+    display: none;
+}
+.header .nav .home
+{
+    height: 100px;
+    width: 60%;
+/*    background: lightcoral;*/
+    display: flex;
+}
+
+.header .nav .home .home1 
+{
+    list-style: none;
+    display: inline;
+    line-height: 100px;
+    position: relative;
+}
+.header .nav .home a 
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size:16px ;
+    padding: 40px 0 0 30px;
+}
+.header .nav .home1 .pages
+{
+   height: 70px;
+   width: 200px;
+   background: white;
+   position: absolute;
+   top: 50px;
+   left: 20px;
+   visibility: hidden;
+}
+.home .home1 .pages li 
+{
+    line-height: 30px;
+     list-style: none;
+    display: block;
+}
+.home .home1 .pages a 
+{
+    text-decoration: none;
+    font-weight:normal;
+    color: black;
+    font-size:14px ;
+    padding: 0px 0 0 10px;
+}
+.home .home1:hover .pages
+{
+    visibility: visible;
+    top: 20px;
+}
+.header .home a:hover
+{
+    color: #ffc107;
+}
+.home .home1 .pages a:hover
+{
+    padding: 0 0 0 20px;
+}
+.header .student
+{
+    height: 300px;
+    width: 500px;
+   /* background: lightgoldenrodyellow;  */
+    margin: 50px 0 0 130px;
+}
+.header .student h3
+{
+    color: white;
+    padding: 10px 0 0 0 ;
+}
+.header .student h1
+{
+    padding: 20px 0 0 0;
+    color: white;
+}
+.header .student p
+{
+    font-size: 20px;
+    color: white;
+    padding: 20px 0 0 0 ;
+}
+.header .student button
+{
+    height: 40px;
+    width: 150px;
+    background: darkred ;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    margin: 30px 0 0 0;
+}
+.header .student a
+{
+    text-decoration: none;
+    color: #3CF;
+}
+.header .student a:hover
+{
+    color: #ffc107;
+}
+
+
+        /*  header end  */
+
+
+
+         /*  content 1  start  */
+
+.best
+{
+    height: 300px;
+    width: 90%;
+    /* background: rgb(51, 1, 9); */
+    position: absolute;
+    top: 450px;
+    left:100px;
+    display: flex;
+
+}
+.best .red
+{
+    height: 250px;
+    width: 390px;
+    background: url(C:/Users/Asus/Documents/pateldipu_github/assesment/img/bac.jpg);
+    margin: 20px 0 0 20px;
+    border-radius: 20px;
+    position: relative;
+}
+.best .red .arrow
+{
+    height: 50px;
+    width: 50px;
+    background: white;
+    position: absolute;
+    top:100px;
+    left: -80px;
+    border-radius: 50%;
+}
+.best .red .arrow i 
+{
+    font-size: 40px;
+    padding: 5px 0 0 15px;
+}
+.best .red2 .arrow1
+{
+    height: 50px;
+    width: 50px;
+    background: white;
+    position: absolute;
+    top:100px;
+    right: -80px;
+    border-radius: 50%;
+}
+.best .red2 .arrow1 i 
+{
+    font-size: 40px;
+    padding: 5px 0 0 20px;
+}
+
+.best .red img
+{
+    padding: 20px 0 0 140px;
+}
+.best .red h2
+{
+    color: white;
+    padding: 10px 0 0 100px;
+}
+.best .red p 
+{
+    font-size: 16px;
+    color: white;
+    padding: 20px 0 0 40px;
+}
+.best .red1
+{
+    height: 250px;
+    width: 390px;
+    background: url(C:/Users/Asus/Documents/pateldipu_github/assesment/img/bac.jpg);
+    margin: 20px 0 0 20px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.best .red1 img
+{
+    padding: 20px 0 0 140px;
+}
+.best .red1 h2
+{
+    color: white;
+    padding: 10px 0 0 100px;
+}
+.best .red1 p 
+{
+    font-size: 16px;
+    color: white;
+    padding: 20px 0 0 40px;
+}
+.best .red2
+{
+    height: 250px;
+    width: 390px;
+    background: url(C:/Users/Asus/Documents/pateldipu_github/assesment/img/bac.jpg);
+    margin: 20px 0 0 20px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.best .red2 img
+{
+    padding: 20px 0 0 140px;
+}
+.best .red2 h2
+{
+    color: white;
+    padding: 10px 0 0 100px;
+}
+.best .red2 p 
+{
+    font-size: 16px;
+    color: white;
+    padding: 20px 0 0 40px;
+}
+
+
+    /*  content 1  end  */
+
+    /*  content 2  start  */
+.meeting
+{
+    height: 1150px;
+    width: 100%;
+    background: url(C:/Users/Asus/Documents/pateldipu_github/assesment/img/background.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+.meeting h2 
+{
+    padding: 200px 0 0 600px;
+    color: #f7f7f7;
+}
+.meeting .upcoming
+{
+    height: 900px;
+    width: 90%;
+   /* background: lightgrey; */
+    margin: 20px 0 0 65px;
+    position: relative;
+    border-top: 1px solid #666666;
+}
+.meeting .upcoming .categories
+{
+    height: 450px;
+    width: 300px;
+    background: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.meeting .upcoming .categories h3
+{
+    font-size: 23px;
+    padding: 30px 0 0 50px;
+}
+.meeting .upcoming .categories .text 
+{
+    height: 250px;
+    width: 250px;
+/*    background: lightgrey;*/
+    margin: 20px 0 0  25px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.categories .text p 
+{
+    padding: 20px 0 0 20px;
+}
+.categories .text a 
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.categories .text a:hover
+{
+    color: darkred;
+}
+.upcoming .categories button
+{
+    height: 50px ;
+    width: 240px;
+    background: darkred;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 40px;
+    margin: 30px 0 0 30px;
+}
+.meeting .upcoming .new 
+{
+    height:900px ;
+    width: 55%;
+   /* background: lightcyan; */
+    position: absolute;
+    top: 0px;
+    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.upcoming .new .meeting1
+{
+    height: 320px;
+    width: 340px;
+   /* background: rgb(11, 11, 1); */
+    margin: 20px 0 0 10px;
+    border-radius: 20px;
+    position: relative;
+}
+.upcoming .new .meeting1 img
+{
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+}
+.upcoming .new .meeting1 .meeting1-1
+{
+    height: 120px;
+    width: 100%;
+    background: white;
+    position: absolute;
+    top: 180px;
+    left: 0;
+    display: flex;
+    border-radius: 10px;
+}
+.new .meeting1 .meeting1-1 .nov
+{
+    height: 120px;
+    width: 20%;
+/*    background: lightcyan;*/
+    border-radius: 20px;
+}
+.meeting1-1 .nov p 
+{
+    font-size: 15px;
+    color: darkred; 
+    padding: 20px 0 0 20px;
+}
+.meeting1-1 .nov span 
+{
+    font-weight: bold;
+    font-size: 20px;
+    padding:5px 0 0 25px ;
+}
+.new .meeting1 .meeting1-1 .lecturer
+{
+    height: 120px;
+    width: 80%;
+/*    background: lightblue;*/
+    border-radius: 20px;
+}
+.meeting1-1 .lecturer h3
+{
+    padding: 20px 0 0 10px;
+}
+.meeting1-1 .lecturer p
+{
+    padding: 10px 0 0 10px;
+}
+.new .meeting1 .meeting1-1 .dolar
+{
+    height: 40px;
+    width: 90px;
+    background: white;
+    position: absolute;
+    top: -170px;
+    left: 20px;
+    display: flex;
+    border-radius: 10px;
+}
+.new .meeting1 .meeting1-1 .dolar i 
+{
+    font-size: 20px;
+    padding: 8px 0 0 10px;
+}
+.new .meeting1 .meeting1-1 .dolar p 
+{
+    font-size: 22px;
+    padding: 7px 0 0 5px;
+}
+
+.upcoming .new .meeting2
+{
+    height: 350px;
+    width: 340px;
+/*    background: lightgoldenrodyellow;*/
+    margin: 20px 0 0 20px;
+    border-radius: 20px;
+    position: relative;
+}
+.upcoming .new .meeting2 img
+{
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+}
+.upcoming .new .meeting2 .meeting2-2
+{
+    height: 150px;
+    width: 100%;
+    background: white;
+    position: absolute;
+    top: 180px;
+    left: 0;
+    border-radius: 10px;
+}
+.new .meeting2 .meeting2-2 h4
+{
+    font-weight: normal;
+    color: darkred;
+    padding: 20px 0 0 20px;
+}
+.new .meeting2 .meeting2-2 span
+{
+     font-weight: bold;
+     font-size: 20px;
+    padding:5px 0 0 25px ;
+}
+.new .meeting2 .meeting2-2 h3
+{
+    padding: 10px 0 0 25px;
+}
+.new .meeting2 .meeting2-2 p
+{
+    padding: 10px 0 0 50px;
+}
+.new .meeting2 .meeting2-2 .dolar
+{
+    height: 40px;
+    width: 90px;
+    background: white;
+    position: absolute;
+    top: -170px;
+    left: 20px;
+    display: flex;
+    border-radius: 10px;
+}
+.new .meeting2 .meeting2-2 .dolar i 
+{
+    font-size: 20px;
+    padding: 8px 0 0 10px;
+}
+.new .meeting2 .meeting2-2 .dolar p 
+{
+    font-size: 22px;
+    padding: 7px 0 0 5px;
+}
+
+       /*  content 2  end  */
+
+       /*  content 3  start  */
+
+.degree
+{
+    height: 800px;
+    width: 100%;
+    background: url(C:/Users/Asus/Documents/pateldipu_github/assesment/img/background1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.degree .bachelor
+{
+    height: 600px;
+    width: 500px;
+/*    background: white;*/
+    position: absolute;
+    top: 100px;
+    left: 80px;
+}
+.degree .bachelor .apply
+{
+    height: 250px;
+    width: 100%;
+    background: rgba(250,250,250,0.15);
+}
+.degree .bachelor .apply h2
+{
+    padding: 30px 0 0 40px;
+}
+.degree .bachelor .apply p
+{
+    padding: 30px 0 0 40px;
+    color: white;
+}
+.degree .bachelor .apply button
+{
+    height: 50px ;
+    width: 150px;
+    background: darkred;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 40px;
+    margin: 30px 0 0 40px;
+
+}
+.degree .bachelor .apply1
+{
+    height: 250px;
+    width: 100%;
+    background: rgba(250,250,250,0.15);
+    margin: 30px 0 0 0;
+}
+.degree .bachelor .apply1 h2
+{
+    padding: 30px 0 0 40px;
+}
+.degree .bachelor .apply1 p
+{
+    padding: 30px 0 0 40px;
+    color: white;
+}
+.degree .bachelor .apply1 button
+{
+    height: 50px ;
+    width: 150px;
+    background: #f5a425;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 40px;
+    margin: 30px 0 0 40px;
+}
+.degree .about 
+{
+    height: 600px;
+    width: 500px;
+    background: white;
+    position: absolute;
+    top: 100px;
+    right: 70px;
+    border-radius: 20px;
+}
+.degree .about .template
+{
+    height: 200px;
+    width: 500px;
+/*    background: lightcyan;*/
+    margin: 40px 0 0 0;
+}
+.degree .about .template a 
+{
+    text-decoration: none;
+    color:#f5a425 ;
+}
+.degree .about .template h3
+{
+    padding: 10px 0 0 80px ;
+
+} 
+.degree .about .template i 
+{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px 0 0 20px;
+}
+.degree .about .template p 
+{
+    font-size: 18px;
+    padding: 10px 0 0 90px;
+}
+.degree .about .template p a 
+{
+    text-decoration: none;
+    color: #3CF;
+}
+.degree .about .template p a:hover
+{
+    color:#f5a425 ;
+}
+.degree .about .html 
+{
+    height: 100px;
+    width: 85%;
+/*    background: lightgoldenrodyellow;*/
+    margin: 0 0 0 40px;
+    border-top: 1px solid ;
+}
+.degree .about .html h2
+{
+    padding: 10px 0 0 40px;
+    color:black ;
+} 
+.degree .about .html i
+{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 0 0 40px;
+}
+.degree .about .html a
+{
+    text-decoration: none;
+    color: black;
+}
+
+    /*  content 3  end  */
+
+
+    /*  content 4  start  */
+
+.popular
+{
+    height: 700px;
+    width: 100%;
+    background:  url(C:/Users/Asus/Documents/pateldipu_github/assesment/img/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.popular h1 
+{
+    color: white;
+    padding: 100px 0 0 80px;
+}
+.popular .pencil
+{
+    height: 400px;
+    width: 87%;
+/*    background: white;*/
+    margin: 20px 0 0 80px;
+    display: flex;
+}
+.popular .pencil .morbi
+{
+    height: 300px;
+    width: 23%;
+    background: white;
+    margin: 50px 0 0 20px;
+    position: relative;
+}
+.popular .pencil .morbi img
+{
+    height: 170px;
+    width: 100%;
+}
+.popular .pencil .morbi p
+{
+    font-size: 20px;
+    padding: 15px 0 0 30px;
+}
+.popular .pencil .morbi .white
+{
+    height: 60px;
+    width: 100%;
+/*    background: lightcyan;*/
+    border-top: 1px solid grey;
+    display: flex;
+    margin: 10px 0 0 0;
+}
+.pencil .morbi .white .star
+{
+    height: 60px ;
+    width: 50%;
+/*    background: lightgrey;*/
+}
+.pencil .morbi .white .star i 
+{
+    text-align:center ;
+    line-height: 60px;
+    padding: 0 0 0 3px;
+    font-size: 14px;
+    color: #f5a425;
+}
+
+.pencil .morbi .white .dolar
+{
+    height: 60px ;
+    width: 50%;
+/*    background: lightgreen;*/
+    display: flex;
+}
+.pencil .morbi .white .dolar i 
+{
+   font-size: 15px;
+   text-align: center;
+   line-height: 60px;
+   padding: 0 0 0 70px;
+   color: darkred;
+}
+.pencil .morbi .white .dolar p 
+{
+    font-size: 15px;
+    padding: 0;
+    text-align: center;
+   line-height: 60px;
+   color: darkred;
+}
+.popular .pencil .morbi1
+{
+    height: 300px;
+    width: 23%;
+    background: white;
+    margin: 50px 0 0 20px;
+    position: relative;
+}
+.popular .pencil .morbi1 img
+{
+    height: 170px;
+    width: 100%;
+}
+.popular .pencil .morbi1 p
+{
+    font-size: 20px;
+    padding: 15px 0 0 30px;
+}
+.popular .pencil .morbi1 .white
+{
+    height: 60px;
+    width: 100%;
+/*    background: lightcyan;*/
+    border-top: 1px solid grey;
+    display: flex;
+    margin: 10px 0 0 0;
+}
+.pencil .morbi1 .white .star
+{
+    height: 60px ;
+    width: 50%;
+/*    background: lightgrey;*/
+}
+.pencil .morbi1 .white .star i 
+{
+    text-align:center ;
+    line-height: 60px;
+    padding: 0 0 0 3px;
+    font-size: 14px;
+    color: #f5a425;
+}
+
+.pencil .morbi1 .white .dolar
+{
+    height: 60px ;
+    width: 50%;
+/*    background: lightgreen;*/
+    display: flex;
+}
+.pencil .morbi1 .white .dolar i 
+{
+   font-size: 15px;
+   text-align: center;
+   line-height: 60px;
+   padding: 0 0 0 70px;
+   color: darkred;
+}
+.pencil .morbi1 .white .dolar p 
+{
+    font-size: 15px;
+    padding: 0;
+    text-align: center;
+   line-height: 60px;
+   color: darkred;
+}
+.popular .pencil .morbi2
+{
+    height: 300px;
+    width: 23%;
+    background: white;
+    margin: 50px 0 0 20px;
+    position: relative;
+}
+.popular .pencil .morbi2 img
+{
+    height: 170px;
+    width: 100%;
+}
+.popular .pencil .morbi2 p
+{
+    font-size: 20px;
+    padding: 15px 0 0 30px;
+}
+.popular .pencil .morbi2 .white
+{
+    height: 60px;
+    width: 100%;
+/*    background: lightcyan;*/
+    border-top: 1px solid grey;
+    display: flex;
+    margin: 10px 0 0 0;
+}
+.pencil .morbi2 .white .star
+{
+    height: 60px ;
+    width: 50%;
+/*    background: lightgrey;*/
+}
+.pencil .morbi2 .white .star i 
+{
+    text-align:center ;
+    line-height: 60px;
+    padding: 0 0 0 3px;
+    font-size: 14px;
+    color: #f5a425;
+}
+
+.pencil .morbi2 .white .dolar
+{
+    height: 60px ;
+    width: 50%;
+/*    background: lightgreen;*/
+    display: flex;
+}
+.pencil .morbi2 .white .dolar i 
+{
+   font-size: 15px;
+   text-align: center;
+   line-height: 60px;
+   padding: 0 0 0 70px;
+   color: darkred;
+}
+.pencil .morbi2 .white .dolar p 
+{
+    font-size: 15px;
+    padding: 0;
+    text-align: center;
+   line-height: 60px;
+   color: darkred;
+}
+.popular .pencil .morbi3
+{
+    height: 300px;
+    width: 23%;
+    background: white;
+    margin: 50px 0 0 20px;
+    position: relative;
+}
+.popular .pencil .morbi3 img
+{
+    height: 170px;
+    width: 100%;
+}
+.popular .pencil .morbi3 p
+{
+    font-size: 20px;
+    padding: 15px 0 0 30px;
+}
+.popular .pencil .morbi3 .white
+{
+    height: 60px;
+    width: 100%;
+/*    background: lightcyan;*/
+    border-top: 1px solid grey;
+    display: flex;
+    margin: 10px 0 0 0;
+}
+.pencil .morbi3 .white .star
+{
+    height: 60px ;
+    width: 50%;
+/*    background: lightgrey;*/
+}
+.pencil .morbi3 .white .star i 
+{
+    text-align:center ;
+    line-height: 60px;
+    padding: 0 0 0 3px;
+    font-size: 14px;
+    color: #f5a425;
+}
+
+.pencil .morbi3 .white .dolar
+{
+    height: 60px ;
+    width: 50%;
+/*    background: lightgreen;*/
+    display: flex;
+}
+.pencil .morbi3 .white .dolar i 
+{
+   font-size: 15px;
+   text-align: center;
+   line-height: 60px;
+   padding: 0 0 0 70px;
+   color: darkred;
+}
+.pencil .morbi3 .white .dolar p 
+{
+    font-size: 15px;
+    padding: 0;
+    text-align: center;
+   line-height: 60px;
+   color: darkred;
+}
+
+
+
+.popular .pencil .morbi .arrow2
+{
+    height: 50px;
+    width: 50px;
+    background: white;
+    position: absolute;
+    top: 160px;
+    left: -70px;
+    border-radius: 50%;
+}
+.popular .pencil .morbi .arrow2 i 
+{
+    font-size: 40px;
+    padding: 5px 0 0 15px;
+}
+
+.popular .pencil .morbi3 .arrow3
+{
+    height: 50px;
+    width: 50px;
+    background: white;
+    position: absolute;
+    top: 160px;
+    right: -70px;
+    border-radius: 50%;
+}
+.popular .pencil .morbi3 .arrow3 i 
+{
+    font-size: 40px;
+    padding: 5px 0 0 20px;
+}
+.popular .circle
+{
+    height: 30px;
+    width: 100px;
+   /* background: greenyellow; */
+    display: flex;
+    margin: 0 0 0 670px;
+}
+.popular .circle .round 
+{
+    height: 10px;
+    width: 10px;
+    background: white;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+
+    /*  content 5  start  */
+
+.facts
+{
+    height: 750px;
+    width: 100%;
+    background: url(C:/Users/Asus/Documents/pateldipu_github/assesment/img/background2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.facts h1 
+{
+    font-size: 40px;
+    color: white;
+    padding: 100px 0 0 100px;
+}
+.facts .percent
+{
+    height: 330px;
+    width: 300px;
+/*    background: lightblue;*/
+    margin: 50px 0  0 80px;
+}
+.facts .percent .yellow
+{
+    height: 140px;
+    width: 90%;
+    background: rgba(250,250,250,0.15);
+    margin: 20px;
+    border-radius: 20px;
+}
+.facts .percent .yellow p 
+{
+    font-size: 30px;
+    color: #f5a425;
+    font-weight: bold;
+    padding: 30px 0 0 110px;
+}
+.facts .percent .yellow h2
+{
+    padding: 0;
+    color: white;
+    padding: 10px 0 0 50px;
+} 
+.facts .percent1
+{
+     height: 330px;
+    width: 300px;
+/*    background: lightblue;*/
+    position: absolute;
+    top: 300px;
+    left:400px;
+}
+.facts .percent1 .yellow1
+{
+    height: 140px;
+    width: 90%;
+    background: rgba(250,250,250,0.15);
+    margin: 20px;
+    border-radius: 20px;
+}
+.facts .percent1 .yellow1 p 
+{
+    font-size: 30px;
+    color: #f5a425;
+    font-weight: bold;
+    padding: 30px 0 0 110px;
+}
+.facts .percent1 .yellow1 h2
+{
+    padding: 0;
+    color: white;
+    padding: 10px 0 0 80px;
+} 
+.facts .video
+{
+    height: 330px;
+    width: 370px;
+    background: url(C:/Users/Asus/Documents/pateldipu_github/assesment/img/video-item-bg.jpg);
+    position: absolute;
+    background-size: cover;
+    top: 200px;
+    right: 80px;
+    border-radius: 20px;
+}
+.facts .video img
+{
+    padding: 130px 0 0 160px;
+}
+
+     /*  content 5  end  */
+  
+
+     /*  footer start     */
+
+.touch
+{
+    height: 930px;
+    width: 100%;
+    background:url(C:/Users/Asus/Documents/pateldipu_github/assesment/img/background.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.touch .white
+{
+    height: 450px;
+    width: 60%;
+    background: white;
+   position: relative;
+   top: 100px;
+   left: 90px;
+   border-radius: 20px;
+}
+.touch .white h2
+{
+    color: black;
+    padding: 40px 0 0 40px;
+}
+.touch .white .table
+{
+    height: 350px;
+    width: 90%;
+/*    background: lightblue;*/
+    margin: 20px 0 0 40px;
+    border-top: 1px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+}
+.touch .white .table .your
+{
+    height: 100px;
+    width: 33.33%;
+/*    background: lightgoldenrodyellow;*/
+/*    border: 1px solid;*/
+}
+.touch .white .table .your input
+{
+    height: 40px ;
+    width: 200px;
+    border-radius: 20px;
+    background: #f7f7f7;
+    border: none;
+    margin: 30px 0 0 5px;
+    padding: 0 0 0 5px;
+}
+.touch .white .table .message
+{
+    height: 160px;
+    width: 100%;
+/*    background: lightcoral;*/
+    margin: -40px 0 0 0;
+}
+.touch .white .table .message input
+{
+    height: 140px;
+    width: 98%;
+    border-radius: 20px;
+    background: #f7f7f7;
+    border: none;
+    margin: 10px 0 0 5px;
+    padding: 0px 0 0 10px;
+}
+.touch .white .table  button
+{
+    height: 40px;
+    width: 200px;
+    background: darkred;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin: -20px 0 0 10px;
+}
+.touch .red 
+{
+    height: 530px;
+    width: 280px;
+    background: darkred;
+    position: absolute;
+    top: 70px;
+    right: 90px;
+    border-radius: 20px;
+}
+.touch .red .phone
+{
+    height:130px ;
+    width: 60%;
+/*    background: white;*/
+    margin: 10px 0 0 30px;
+    border-bottom: 1px solid gray;
+}
+.red .phone p 
+{
+    font-weight:bold ;
+    font-size: 18px;
+    padding: 30px 0 0 0;
+    color: white;
+}
+.red .phone span
+{
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    padding: 10px 0 0 0;
+    display: inline-block;
+}
+.touch .red .email
+{
+    height:130px ;
+    width: 80%;
+/*    background: white;*/
+    margin: 0px 0 0 30px;
+    border-bottom: 1px solid gray;
+}
+.red .email p 
+{
+    font-weight:bold ;
+    font-size: 18px;
+    padding: 30px 0 0 0;
+    color: white;
+}
+.red .email span
+{
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    padding: 10px 0 0 0;
+    display: inline-block;
+}
+.touch .red .email1
+{
+    height:130px ;
+    width: 80%;
+/*    background: white;*/
+    margin: 0px 0 0 30px;
+}
+.red .email1 p 
+{
+    font-weight:bold ;
+    font-size: 18px;
+    padding: 30px 0 0 0;
+    color: white;
+}
+.red .email1 span
+{
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    padding: 10px 0 0 0;
+    display: inline-block;
+}
+.touch .footer
+{
+    height: 150px;
+    width: 100%;
+   /* background: lightgrey;     */
+    margin: 300px 0 0 ;
+    border-top: 1px solid white;
+}
+.touch .footer p 
+{
+    padding: 50px 0 0 450px;
+    color: white;
+}
+.touch .footer h5 
+{
+    font-size: 17px;
+    padding: 20px 0 0 600px;
+    font-weight: normal;
+    color: white;
+}
+.touch .footer a
+{
+    text-decoration: none;
+    color: #f5a425;
+} 
+
+          /*  footer end     */
