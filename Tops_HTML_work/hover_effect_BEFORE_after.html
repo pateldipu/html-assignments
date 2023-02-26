@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		
+		div 
+		{
+			height: 50px;
+			width: 100px;
+			background: lightblue;
+
+			text-align: center;
+			line-height: 50px;
+			margin: 100px auto;
+
+			border-radius: 30px;
+			font-size: 18px;
+			font-weight: bold;
+			position: relative;
+
+			overflow: hidden;
+			z-index: 0;
+		}
+
+		div::before
+		{
+			content: "";
+
+			position: absolute;
+			top:0;
+			left: -200%;
+			height: 100px;
+			width: 200px;
+			background: linear-gradient(red,blue);
+			z-index: -1;
+
+			transition: .4s;
+		}
+
+		div:hover::before
+		{
+			left: 0;
+		}
+	</style>
+</head>
+<body>
+
+	<div>
+		Hover ME
+		
+	</div>
+
+</body>
+</html>
