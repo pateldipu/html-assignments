@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
+}
+
+body{
+    overflow-x: hidden;
 }
 .navbar
 {
@@ -23,7 +28,7 @@
     /* background-color: #6089b3; */
     
 }
-.navbar .c
+.navbar .cc
 {
     height: 70px;
     width: 30%;
@@ -78,7 +83,7 @@
     color: #b99272;
 }
 
-.c .s
+.cc .ss
 {
     height: 50px;
 	width: 200px;
@@ -93,12 +98,12 @@
 	overflow: hidden;
      z-index: 0;
 }
-.s a
+.ss a
 {
     text-decoration: none;
     color: #fff;
 }
-.effect 
+.effect8 
 {
     height: 100px;
 	width: 200px;
@@ -110,12 +115,12 @@
 	z-index: -1;
 }
 
-.c:hover .effect 
+.cc:hover .effect8 
 {
 	bottom: 0;
     color: #fff;
 }
-.c:hover a
+.cc:hover a
 {
     color: #b99272;
 }
@@ -249,7 +254,7 @@
     /* background-repeat: no-repeat; */
     /* background-attachment: fixed; */
     background-size: cover;
-    padding: 50px 0;
+    padding: 20px 0;
 }
 .foreground .V
 {
@@ -258,20 +263,20 @@
   /* position: absolute; */
   display: flex;
   justify-content: space-around;
-  margin: 0px 0px 0 150px;
+  margin: 0px 0px 0 100px;
   /* box-sizing: border-box; */
-  /* background-color: aquamarine; */
+  background-color: aquamarine;
 }
 .V .AB
 {
     height: 550PX;
     width: 45%;
     /* position: relative; */
-    /* background-color:lightpink; */
+    background-color:lightpink;
 }
 .V .AB2 
 {
-    height: 230px;
+    height: 210px;
     /* width: 45%; */
     margin: 15px 0;
     border-radius: 10px;
@@ -285,12 +290,12 @@
 {
   height: 550px;
   width: 45%;
-  /* background-color: violet; */
+  background-color: violet;
   /* margin: 0 100PX; */
 }
 .V .BA img
 {
- height: 550px;
+ height: 530px;
  width: 550px;
 }
 .V .AB P 
@@ -323,15 +328,15 @@
 {
     height: 350px;
     width: 100%;
-    /* background: lightblue; */
+    background: lightblue;
     padding: 30px 0;
 }
 .card .card1
 {
-    height:280px ;
+    height:270px ;
     width: 80%;
-    /* background: rgb(10, 10, 9); */
-    margin: 20px  auto;
+    background: rgb(10, 10, 9);
+    margin: 10px  auto;
     display: flex;
     justify-content: space-around;
     /* flex-wrap: wrap; */
@@ -339,17 +344,17 @@
 }
 .card .card1 .image_card
 {
-    height:280px ;
+    height:270px ;
     width: 310px;
-    /* background: lightpink; */
+    background: lightpink;
     position: relative;
     overflow: hidden;
 }
 .image_card .card-img
 {
-    height:280px ;
+    height:270px ;
     width: 310px;
-     /* background-color: rebeccapurple; */
+     background-color: rebeccapurple;
     transform: scale(1);
     transition: 1s;
 }
@@ -931,7 +936,7 @@
 {
     height: 190px;
     width: 800px;
-    background : rgb(198, 182, 176);
+    /* background : rgb(198, 182, 176); */
     text-align: center;
     line-height:70px;
 }
@@ -944,16 +949,356 @@
     color: #fff;
     font-weight: bold;
 }
-.card
+.card5
 {
     height: 500px;
     width: 100%;
-    padding: 20px 0 0 250px;
-    background: springgreen;
+    display: flex;
+    margin: 20px 0 0 0;
+    justify-content: space-around;
+    padding: 20px 0 0 0;
+    /* background: springgreen;s */
 }
-.card .box4
+.card5 .box4
 {
     height: 450px;
-    width: 999px;
-    background-color: teal;
+    width: 450px;   
+    position: relative;
+    /* background-color: teal; */
+}
+.box4 .IMG5
+{
+    height: 450PX;
+    width: 450PX;
+    overflow: hidden;
+   
+    /* background-position: center; */
+}
+.IMG5 img
+{
+    height: 450PX;
+    width: 450PX;
+    background-position: -20px 0;
+    transform: scale(1); 
+    transition: .8s;
+}
+.IMG5:hover img 
+{
+    background-position: 0 0;
+    transform: scale(1.1);    
+}
+.box4 .box6
+{
+    height: 150PX;
+    width: 450px;
+    margin-top: -150PX;
+    position: absolute;
+    /* background-color: aquamarine; */
+}
+.box6 p
+{
+   font-size: 30Px;
+   margin-left: 10px;
+   color: #fff;
+}
+.box6 .DATE 
+{
+    height: 50px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    /* background-color: skyblue; */
+}
+.box6 .comment 
+{
+    height: 50px;
+    width: 200px;
+    margin-top: -50px;
+    margin-left: 240px;
+    /* background-color: plum; */
+}
+.DATE .fa-calendar
+{
+    color: #fff;
+    font-size: 30px;
+}
+.DATE h3
+{
+    font-size:20px;
+    color: #fff;
+    margin-top: -25px;
+    margin-left: 40px;
+}
+
+.comment .fa-comments
+{
+    color: #fff;
+    font-size: 30px;
+}
+.comment h3
+{
+    font-size:20px;
+    color: #fff;
+    margin-top: -25px;
+    margin-left: 40px;
+}
+
+.box4 .s
+{
+    height: 50px;
+	width: 200px;
+    background: #b99272;
+	margin: 30px 0 0 -370px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 19px;
+	font-weight: bold;
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+     z-index: 0;
+}
+.s a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.effect 
+{
+    height: 100px;
+	width: 200px;
+	background:#fff;
+	position: absolute;
+	/* bottom:0; */
+	bottom:200%;
+	transition: .7s;
+	z-index: -1;
+}
+
+.box4:hover .effect 
+{
+	bottom: 0;
+    color: #fff;
+}
+.box4:hover a
+{
+    color: #b99272;
+}
+.foreground2
+{
+    height: 300px;
+    width: 100%;
+    
+    background-image:url(C://Users/Asus/Desktop/pateldipu_github/html-assignments/flex/img/service3.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.color
+{
+    height: 300px;
+    width: 100%;
+    padding: 130px 0 0 100px;
+    background-color: rgba(0,0,0,0.45);
+}
+.foreground2 .TEST5
+{
+    height: 100px;
+    width: 750px;
+    /* background-color: rosybrown; */
+}
+.foreground2 h4
+{
+    font-size: 20px;
+    color: #b99272;
+}
+.foreground2 h1
+{
+    color: #fff;
+}
+.c .s
+{
+    height: 50px;
+	width: 200px;
+    background: #b99272;
+	margin: -50px 0 0 700px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 19px;
+	font-weight: bold;
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+     z-index: 0;
+}
+.s a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.effect 
+{
+    height: 100px;
+	width: 200px;
+	background:#fff;
+	position: absolute;
+	/* bottom:0; */
+	bottom:200%;
+	transition: .7s;
+	z-index: -1;
+}
+
+.c:hover .effect 
+{
+	bottom: 0;
+    color: #fff;
+}
+.c:hover a
+{
+    color: #b99272;
+}
+.footer
+{
+    height: 550px;
+    width: 100%;
+    padding: 30px 0 0 0;
+    background-color: #0e1317;
+}
+.footer .main2
+{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: darkslategrey; */
+}
+.main2 .box5
+{
+    height: 350px;
+    width: 350px;
+    
+    padding: 10px 0 0 0;
+    /* background-color: rgb(56, 169, 19); */
+}
+.box5 h2
+{
+    color: #fff;
+}
+.box5 h3
+{
+    padding: 5px 0 0 0;
+    font-size: 20px;
+    color: white;
+}
+.box5 h4
+{
+    padding: 5px 0 0 20px;
+    font-size: 20px;
+    color: #b99272;
+}
+.box5 h1
+{
+    color: #ff8a00;
+    font-family:cursive;
+}
+
+.box5 .fa-map-marker
+{
+    font-size: 45px;
+}
+.box5 h5
+{
+    margin: 0 0 0 10px;
+    font-size: 30px;
+    color: #b99272;
+}
+.box5 h6
+{
+    margin: 0 0 0 48px ;
+    font-size: 20px;
+    color: #fff;
+}
+.box5 p
+{
+    font-size: 25PX;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box5 .PP
+{
+    height: 150px;
+    width: 350PX;
+    padding: 40PX 0 0 0;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: yellow; */
+}
+.box5 .QQ
+{
+    height: 150px;
+    width: 350PX;
+   
+    display: flex;
+    justify-content: space-around;
+    /* background-color: yellow; */
+}
+.PP .P
+{
+    height: 100PX;
+    width: 100PX;
+    /* background-color: white; */
+}
+.P img
+{
+    height: 90px;
+    width: 100px;
+    transform: scale(1);
+    transition: 1s;
+    overflow: hidden;
+
+}
+.P img:hover 
+{
+    transform: scale(1.1);
+}
+.Q img
+{
+    height: 90px;
+    width: 100px;
+    transform: scale(1);
+    transition: 1s;
+    overflow: hidden;
+
+}
+.Q img:hover 
+{
+    transform: scale(1.1);
+}
+
+.QQ .Q
+{
+    height: 100PX;
+    width: 100PX;
+    /* background-color: rgb(85, 64, 64); */
+}
+.footer .main3
+{
+    height: 100px;
+    width: 100%;
+    border-top: 1px solid black;
+    /* background-color: salmon; */
+}
+.main3 .box6
+{
+    height: 90px;
+    width: 750px;
+    margin: 0 0 0 350px;
+    padding: 40px 0  0 200px;
+    /* background-color: black; */
+}
+.box6 h3
+{
+    color: rgba(255,255,255,.1);
+
 }
