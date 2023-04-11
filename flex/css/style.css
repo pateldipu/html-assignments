@@ -19,13 +19,13 @@ body{
 {
     height: 70px;
     width: 30%;
-    /* background-color: #d6f58d; */
+    background-color: #d6f58d;
 }
 .navbar .b
 {
     height: 70px;
     width: 40%;
-    /* background-color: #6089b3; */
+    background-color: #6089b3;
     
 }
 .navbar .cc
@@ -265,14 +265,14 @@ body{
   justify-content: space-around;
   margin: 0px 0px 0 100px;
   /* box-sizing: border-box; */
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
 .V .AB
 {
     height: 550PX;
     width: 45%;
     /* position: relative; */
-    background-color:lightpink;
+    /* background-color:lightpink; */
 }
 .V .AB2 
 {
@@ -290,7 +290,7 @@ body{
 {
   height: 550px;
   width: 45%;
-  background-color: violet;
+  /* background-color: violet; */
   /* margin: 0 100PX; */
 }
 .V .BA img
@@ -328,14 +328,14 @@ body{
 {
     height: 350px;
     width: 100%;
-    background: lightblue;
+    /* background: lightblue; */
     padding: 30px 0;
 }
 .card .card1
 {
     height:270px ;
     width: 80%;
-    background: rgb(10, 10, 9);
+    /* background: rgb(10, 10, 9); */
     margin: 10px  auto;
     display: flex;
     justify-content: space-around;
@@ -346,7 +346,7 @@ body{
 {
     height:270px ;
     width: 310px;
-    background: lightpink;
+    /* background: lightpink; */
     position: relative;
     overflow: hidden;
 }
@@ -354,7 +354,7 @@ body{
 {
     height:270px ;
     width: 310px;
-     background-color: rebeccapurple;
+     /* background-color: rebeccapurple; */
     transform: scale(1);
     transition: 1s;
 }

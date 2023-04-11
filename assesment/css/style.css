@@ -2,13 +2,16 @@
   
 
    /*  header start  */
-
+body
+{
+    overflow-x: hidden;
+}
 
 .header
 {
     height: 600px;
     width:100% ;
-    background: url(C:/Users/Asus/Documents/pateldipu_github/assesment/img/image1.jpg);
+    background: url(C://Users/Asus/Desktop/pateldipu_github/html-assignments/assesment/img/image1.jpg);
     background-size: cover;
     position: relative;
 }
@@ -16,13 +19,13 @@
 {
     height: 100px;
     width: 100%;
-    background: rgba(0,0,0,0.35);
+    background: rgba( 0, 0, 0 , .25);
     display: flex;
 }
 .header .nav .edu
 {
     height: 100px;
-    width: 40%;
+    width: 30%;
    /* background: lightblue; */
 }
 .header .nav .edu h1
@@ -37,7 +40,7 @@
 .header .nav .home
 {
     height: 100px;
-    width: 60%;
+    width: 70%;
 /*    background: lightcoral;*/
     display: flex;
 }
@@ -96,10 +99,10 @@
 }
 .header .student
 {
-    height: 300px;
+    height: 350px;
     width: 500px;
-   /* background: lightgoldenrodyellow;  */
-    margin: 50px 0 0 130px;
+   /* background: #000; */
+    margin: 50px 0 0 100px;
 }
 .header .student h3
 {
@@ -120,8 +123,8 @@
 .header .student button
 {
     height: 40px;
-    width: 150px;
-    background: darkred ;
+    width: 200px;
+    background: darkred ; 
     color: white;
     font-weight: bold;
     border: none;
@@ -149,19 +152,19 @@
 {
     height: 300px;
     width: 90%;
-    /* background: rgb(51, 1, 9); */
+    /* background: lightgray; */
     position: absolute;
     top: 450px;
-    left:100px;
+    left: 70px;
     display: flex;
 
 }
 .best .red
 {
     height: 250px;
-    width: 390px;
-    background: url(C:/Users/Asus/Documents/pateldipu_github/assesment/img/bac.jpg);
-    margin: 20px 0 0 20px;
+    width: 400px;
+    background: url(C://Users/Asus/Desktop/pateldipu_github/html-assignments/assesment/img/bac.jpg);
+    margin: 20px 0 0 50px;
     border-radius: 20px;
     position: relative;
 }
@@ -172,7 +175,7 @@
     background: white;
     position: absolute;
     top:100px;
-    left: -80px;
+    left: -70px;
     border-radius: 50%;
 }
 .best .red .arrow i 
@@ -187,7 +190,7 @@
     background: white;
     position: absolute;
     top:100px;
-    right: -80px;
+    right: -70px;
     border-radius: 50%;
 }
 .best .red2 .arrow1 i 
@@ -214,8 +217,8 @@
 .best .red1
 {
     height: 250px;
-    width: 390px;
-    background: url(C:/Users/Asus/Documents/pateldipu_github/assesment/img/bac.jpg);
+    width: 400px;
+    background: url(C://Users/Asus/Desktop/pateldipu_github/html-assignments/assesment/img/bac.jpg);
     margin: 20px 0 0 20px;
     border-radius: 20px;
     position: relative;
@@ -239,8 +242,8 @@
 .best .red2
 {
     height: 250px;
-    width: 390px;
-    background: url(C:/Users/Asus/Documents/pateldipu_github/assesment/img/bac.jpg);
+    width: 400px;
+    background: url(C://Users/Asus/Desktop/pateldipu_github/html-assignments/assesment/img/bac.jpg);
     margin: 20px 0 0 20px;
     border-radius: 20px;
     position: relative;
@@ -270,23 +273,23 @@
 {
     height: 1150px;
     width: 100%;
-    background: url(C:/Users/Asus/Documents/pateldipu_github/assesment/img/background.jpg);
+    background: url(C://Users/Asus/Desktop/pateldipu_github/html-assignments/assesment/img/background.jpg);
     background-size:cover;
     background-attachment: fixed;
 }
 .meeting h2 
 {
     padding: 200px 0 0 600px;
-    color: #f7f7f7;
+    color: white;
 }
 .meeting .upcoming
 {
     height: 900px;
     width: 90%;
-   /* background: lightgrey; */
-    margin: 20px 0 0 65px;
+   /* background: grey; */
+    margin: 30px 0 0 65px;
     position: relative;
-    border-top: 1px solid #666666;
+    border-top: 1px solid white;
 }
 .meeting .upcoming .categories
 {
@@ -307,7 +310,7 @@
 {
     height: 250px;
     width: 250px;
-/*    background: lightgrey;*/
+   /* background: lightgrey; */
     margin: 20px 0 0  25px;
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
@@ -340,19 +343,19 @@
 .meeting .upcoming .new 
 {
     height:900px ;
-    width: 55%;
-   /* background: lightcyan; */
+    width: 65%;
+   /* background: rgb(5, 94, 94); */
     position: absolute;
     top: 0px;
-    right: 0;
+    right: 0px;
     display: flex;
     flex-wrap: wrap;
 }
 .upcoming .new .meeting1
 {
     height: 320px;
-    width: 340px;
-   /* background: rgb(11, 11, 1); */
+    width: 320px;
+   /* background: lightgoldenrodyellow; */
     margin: 20px 0 0 10px;
     border-radius: 20px;
     position: relative;
@@ -384,7 +387,7 @@
 .meeting1-1 .nov p 
 {
     font-size: 15px;
-    color: darkred; 
+    color: darkred;
     padding: 20px 0 0 20px;
 }
 .meeting1-1 .nov span 
@@ -433,8 +436,8 @@
 .upcoming .new .meeting2
 {
     height: 350px;
-    width: 340px;
-/*    background: lightgoldenrodyellow;*/
+    width: 320px;
+    /* background: lightgoldenrodyellow; */
     margin: 20px 0 0 20px;
     border-radius: 20px;
     position: relative;
@@ -505,7 +508,7 @@
 {
     height: 800px;
     width: 100%;
-    background: url(C:/Users/Asus/Documents/pateldipu_github/assesment/img/background1.jpg);
+    background: url(C://Users/Asus/Desktop/pateldipu_github/html-assignments/assesment/img/background1.jpg);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -514,7 +517,7 @@
 {
     height: 600px;
     width: 500px;
-/*    background: white;*/
+   /* background: white; */
     position: absolute;
     top: 100px;
     left: 80px;
@@ -654,7 +657,7 @@
 {
     height: 700px;
     width: 100%;
-    background:  url(C:/Users/Asus/Documents/pateldipu_github/assesment/img/background.jpg);
+    background:  url(C://Users/Asus/Desktop/pateldipu_github/html-assignments/assesment/img/background.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -702,7 +705,7 @@
 {
     height: 60px ;
     width: 50%;
-/*    background: lightgrey;*/
+   /* background: lightgrey; */
 }
 .pencil .morbi .white .star i 
 {
@@ -767,7 +770,7 @@
 {
     height: 60px ;
     width: 50%;
-/*    background: lightgrey;*/
+    /* background: lightgrey; */
 }
 .pencil .morbi1 .white .star i 
 {
@@ -940,7 +943,7 @@
     width: 50px;
     background: white;
     position: absolute;
-    top: 160px;
+    top: 130px;
     left: -70px;
     border-radius: 50%;
 }
@@ -956,7 +959,7 @@
     width: 50px;
     background: white;
     position: absolute;
-    top: 160px;
+    top: 130px;
     right: -70px;
     border-radius: 50%;
 }
@@ -969,9 +972,9 @@
 {
     height: 30px;
     width: 100px;
-   /* background: greenyellow; */
+/*    background: greenyellow;*/
     display: flex;
-    margin: 0 0 0 670px;
+    margin: 0 0 0 580px;
 }
 .popular .circle .round 
 {
@@ -989,7 +992,7 @@
 {
     height: 750px;
     width: 100%;
-    background: url(C:/Users/Asus/Documents/pateldipu_github/assesment/img/background2.jpg);
+    background: url(C://Users/Asus/Desktop/pateldipu_github/html-assignments/assesment/img/background2.jpg);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -1004,7 +1007,7 @@
 {
     height: 330px;
     width: 300px;
-/*    background: lightblue;*/
+   /* background: lightblue; */
     margin: 50px 0  0 80px;
 }
 .facts .percent .yellow
@@ -1032,7 +1035,7 @@
 {
      height: 330px;
     width: 300px;
-/*    background: lightblue;*/
+   /* background: lightblue; */
     position: absolute;
     top: 300px;
     left:400px;
@@ -1062,7 +1065,7 @@
 {
     height: 330px;
     width: 370px;
-    background: url(C:/Users/Asus/Documents/pateldipu_github/assesment/img/video-item-bg.jpg);
+    background: url(C://Users/Asus/Desktop/pateldipu_github/html-assignments/assesment/img/video-item-bg.jpg);
     position: absolute;
     background-size: cover;
     top: 200px;
@@ -1083,7 +1086,7 @@
 {
     height: 930px;
     width: 100%;
-    background:url(C:/Users/Asus/Documents/pateldipu_github/assesment/img/background.jpg) ;
+    background:url(C://Users/Asus/Desktop/pateldipu_github/html-assignments/assesment/img/background.jpg) ;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -1239,19 +1242,19 @@
 {
     height: 150px;
     width: 100%;
-   /* background: lightgrey;     */
-    margin: 300px 0 0 ;
+/*    background: lightgrey;*/
+    margin: 300px 0 0 0;
     border-top: 1px solid white;
 }
 .touch .footer p 
 {
-    padding: 50px 0 0 450px;
+    padding: 50px 0 0 350px;
     color: white;
 }
 .touch .footer h5 
 {
     font-size: 17px;
-    padding: 20px 0 0 600px;
+    padding: 20px 0 0 500px;
     font-weight: normal;
     color: white;
 }

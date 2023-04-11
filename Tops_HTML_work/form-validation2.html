@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .form{
+            
+            height: 350px;
+            width: 470px;
+            background: lightgrey;
+            margin: 100px auto ;
+            padding: 25px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            border-radius: 20px;
+            box-shadow: 5px 5px 5px lightcoral;
+        }
+        .form input{
+            height: 35px;
+            background: transparent;
+            box-shadow: 2px 2px 2px lightcoral;
+            border: none;
+            padding: 10px;
+            border: 1px solid lightcoral;
+            border-radius: 10px;            
+        }
+        #btn{
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            justify-content: center;
+            height: 40px;
+            width: 100px;
+            margin-left: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form" onsubmit=" return FormValidate()">
+        <form>
+            <label for="name">Please Enter Your Name:</label>
+            <input type="text" placeholder="Your Full Name Please...!" id="nm">
+            <br><br>
+            <label for="pass">Please Enter Password:</label>
+            <input type="text" placeholder="Your Password...!" id="pass">
+            <br><br>
+            <label for="cpass">Please Confirm Password:</label>
+            <input type="text" placeholder="Confirm the Password...!" id="cpass">
+            <br><br>
+            <label for="mobile">Please Enter Your Mobile No:</label>
+            <input type="text" placeholder="Your Mobile No...!" id="mb">
+            <br><br>
+            <input type="submit" id="btn"><br><br>
+            <span id="nmErr"></span>
+        </form>
+    </div>
+
+    <script>
+        name1 = document.getElementById('nm');
+        nmSpan = document.getElementById('nmErr');
+        nm_ex = /^[a-zA-z]+ $/
+        
+        pwd = document.getElementById('pass');
+        nm_ex = /^[a-zA-z]+$/
+
+        cpwd = document.getElementById('cpass');
+
+        mobile = document.getElementById('mb');
+        mb_ex = /^[0-9]{10}$/    
+        
+
+
+
+        function FormValidate()
+        {
+            if(nm.value=="")
+            {
+                //alert('Name Required...!');
+                nmSpan.innerHTML="*Name is Required";
+                return false;  
+            }
+            if(!nm_ex.test(name1.value))
+            {
+                //alert('Please Enter Only Text');
+                nmSpan.innerHTML="*Please Enter Only Letters";
+                return false;
+            }
+            if(pass.value == "")
+            {
+                nmSpan.innerHTML="*Password Required";
+                return false;
+            }
+            if(pass.value != cpass.value)
+            {
+                //alert('Please Enter Only Text');
+                nmSpan.innerHTML="*Password NOT MATCH";
+                return false;
+            }
+            if(mb.value=="")
+            {
+                //alert('Mobile is Required')
+                nmSpan.innerHTML="*Mobile Required";
+                return false; 
+            }
+            if(!mb_ex.test(mobile.value))
+            {
+                //alert('Mobile is Required')
+                nmSpan.innerHTML="*Enter Correct Mobile No...";
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>

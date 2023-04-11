@@ -1,0 +1,8 @@
+@media(max-width:500px)
+{
+    .navbar {width: 100%;}
+    .navbar .a{height:70px; width: 200px;}
+    .navbar .a img {height:40px;  margin-left: 20px; margin-top: 15px;}
+    .navbar .b{height: 70px; width: 150px; }
+
+}

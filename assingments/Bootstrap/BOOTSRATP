@@ -1,0 +1,65 @@
+1] What are the advantages of Bootstrap? 
+=> As you can see, there are several benefits to using Bootstrap. 
+   The framework allows for rapid, responsive development that is consistent and well supported by the development and design community. 
+   As the framework continues to develop, the reasons to use Bootstrap keep mounting.
+
+2] What is a Bootstrap Container, and how does it work?
+=> Containers are the most basic layout element in Bootstrap and are required when using our default grid system. Containers are used to contain, pad, and (sometimes) center the content within them. While containers can be nested, most layouts do not require a nested container.
+
+   Bootstrap comes with three different containers:
+
+   1) .container, which sets a max-width at each responsive breakpoint
+   2).container-fluid, which is width: 100% at all breakpoints
+   3).container-{breakpoint}, which is width: 100% until the specified breakpoint
+
+3] What are the default Bootstrap text settings? 
+=> Bootstrap's global default font-size is 14px, with a line-height of 1.428.
+   This is applied to the <body> element and all paragraphs (<p>).
+   In addition, all <p> elements have a bottom margin that equals half their computed line-height (10px by default).
+
+4] What do you know about the Bootstrap Grid System? 
+=> Bootstrap's grid system allows up to 12 columns across the page.
+    
+    The Bootstrap grid system has four classes:
+
+  1).xs (for phones - screens less than 768px wide)
+  2)sm (for tablets - screens equal to or greater than 768px wide)
+  3)md (for small laptops - screens equal to or greater than 992px wide)
+  4)lg (for laptops and desktops - screens equal to or greater than 1200px wide)
+
+5] What is the difference between Bootstrap 4 and Bootstrap 5 
+=> Bootstrap4: Bootstrap 4 is a newer version of Bootstrap; with new components, faster stylesheet and more responsiveness. 
+               However, Internet Explorer 9 and down is not supported.
+
+   Bootstrap5: Bootstrap 5 is the newest version of Bootstrap; with a smooth overhaul. 
+               However, Internet Explorer 11 and down is not supported, and jQuery is replaced with vanilla JavaScript.
+
+6]  What is a Button Group, and what is the class for a basic Button Group?
+=>  Button group is a component provided by Bootstrap 5 which helps to combine the buttons in a series in a single line. 
+    All types of buttons are supported by it. 
+    Types: Following are the nine types of buttons available in Bootstrap 5: 
+    Horizontally arranged button groups: The .btn-group class is used to create horizontally arranged button groups.
+
+7] How can you use Bootstrap to make thumbnails?
+=> Bootstrap helps web developers to create thumbnails that are used to show linked images in grids with the pre-defined classes which 
+   help to reduce codes length. 
+   Thumbnails are created to provide a quick preview of images with small images.
+
+   Thumbnail Image: A thumbnail is a small image that represents a larger image. Bootstrap has an easy way to do this with thumbnails. Bootstrap’s .thumbnail class is used to show linked images in grids (grid system), a thumbnail is created using class .thumbnail within the element <a>.  The class .col-sm-* and .col-md-* (where * represent number ), it is used to create grids of the images.
+
+8] In Bootstrap 4, what is flexbox?
+=> In Bootstrap 4, flex box is used to control the layout and alignment specification of Bootstrap 4 components. 
+   This box makes it easier to design flexible responsive layout structures without using float or positioning attributes.
+
+9] How can one create an alert in Bootstrap?
+=>Alerts are available for any length of text, as well as an optional close button. 
+  For proper styling, use one of the eight required contextual classes (e.g., .alert-success). 
+  For inline dismissal, 
+                <div class="alert alert-primary" role="alert">
+                   A simple primary alert—check it out!
+                </div>
+
+10] What is a bootstrap card and how would you create one? 
+=> A Bootstrap card is a.card class with the. card-body class nested inside. 
+   This creates a card with a rounded border inside which you can place text, images, links, and other Bootstrap elements. 
+   Since cards are divs, they’ll span the entire width of the page by default.
