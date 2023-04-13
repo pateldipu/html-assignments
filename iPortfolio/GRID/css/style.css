@@ -22,7 +22,7 @@
     display: grid;  
     grid-template: 50px / auto auto auto;
     /* grid-gap: 50px; */
-    background-color: black;
+    /* background-color: black; */
 }
 .navbar .nav .icon a{
     text-decoration: none;
@@ -32,11 +32,11 @@
 {
     display: none;
 }
-.nav .a
+.nav .aa
 {
     height: 70px;
-    width: 220px;
-    /* background-color: rgb(163, 98, 17); */
+    width: 200px;
+    background-color: rgb(163, 98, 17);
 }
 .nav .b
 {
@@ -44,11 +44,18 @@
     width: 850px;
     /* background-color: rgb(9, 68, 68); */
 }
-.a img
+.nav .a
 {
-    margin-top: 20px;
-    margin-left: 30px;
+  height: 70px; 
+  width: 100px;
+  background-color: hotpink;
+
 }
+/* .aa img
+{
+    margin-top: 10px;
+    margin-left: 30px;
+} */
 .b .A
 {
     display: inline;
@@ -99,8 +106,8 @@
 .a .fa-search
 {
     font-size: 20px;
-    margin-top: 20px;
-    margin-left: 170px;
+    /* margin-top: 20px; */
+    /* margin-left: 170px; */
 }
 .a a
 {
