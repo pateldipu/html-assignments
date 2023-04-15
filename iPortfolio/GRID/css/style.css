@@ -36,7 +36,7 @@
 {
     height: 70px;
     width: 200px;
-    background-color: rgb(163, 98, 17);
+    /* background-color: rgb(163, 98, 17); */
 }
 .nav .b
 {
@@ -44,18 +44,18 @@
     width: 850px;
     /* background-color: rgb(9, 68, 68); */
 }
-.nav .a
+/* .nav .a
 {
   height: 70px; 
   width: 100px;
   background-color: hotpink;
 
-}
-/* .aa img
+} */
+.aa img
 {
     margin-top: 10px;
     margin-left: 30px;
-} */
+}
 .b .A
 {
     display: inline;
