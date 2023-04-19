@@ -19,13 +19,13 @@ body{
 {
     height: 70px;
     width: 30%;
-    background-color: #d6f58d;
+    /* background-color: #d6f58d; */
 }
 .navbar .b
 {
     height: 70px;
     width: 40%;
-    background-color: #6089b3;
+    /* background-color: #6089b3; */
     
 }
 .navbar .cc
@@ -124,6 +124,9 @@ body{
 {
     color: #b99272;
 }
+
+
+
 .background
 {
     height: 650px;
@@ -131,11 +134,13 @@ body{
     /* background-color: yellowgreen; */
     position: relative;
 
-    background-image: url("C://Users/Asus/Documents/pateldipu_github/flex/img/started_img_n3.jpg");
+    background-image: url("C://Users/Asus/Desktop/pateldipu_github/html-assignments/flex/img/started_img_n3.jpg");
     /* background-repeat: no-repeat; */
     /* background-attachment: fixed; */
+    /* background-position: center; */
     background-size: cover;
 }
+
 .background .text
 {
     height: 400px;

@@ -129,12 +129,13 @@
 }
 .section .section1
 {
-    height: 650px;
-    width: 85%;
+    /* height: 650px; */
+    /* width: 85%; */
     /* background-color: aqua; */
     position: relative;
-    /* background-image: url(C://Users/Asus/Desktop/pateldipu_github/html-assignments/GRID/img/th.jfif );
-    background-position: center; */
+    background-image: url(C://Users/Asus/Desktop/pateldipu_github/html-assignments/GRID/img/th.jfif );
+    background-position: center;
+    background-size: cover;
     margin-left: 90px;
 }
 .section1 img

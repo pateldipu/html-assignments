@@ -1,8 +1,12 @@
 @media(max-width:500px)
 {
-    .navbar {width: 100%;}
-    .navbar .a{height:70px; width: 200px;}
-    .navbar .a img {height:40px;  margin-left: 20px; margin-top: 15px;}
-    .navbar .b{height: 70px; width: 150px; }
+    .navbar{height: 70px; width: 100%;}
+    .navbar .a{height: 70px; width:auto; display: flex;}
+    .navbar .b{display:none;}
+    .navbar .cc{display:none;}
 
+    .background{background-position: center; width: 100%;}
+    .background .text{height: 400px; width: auto;  background-color: lightcoral; margin:80px 0 0 20px;}
+    .background .text p{background-color: green;}
+    .background .text h2{background-color: aqua; font-size: 35px;}
 }
