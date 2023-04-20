@@ -191,6 +191,7 @@ body{
 {
     height: 100px;
 	width: 200px;
+    display: block;
 	background:#fff;
 	position: absolute;
 	/* bottom:0; */
@@ -424,16 +425,23 @@ body{
     background-attachment: fixed;
     background-position: center;
 }
-.background1 h3
+.background1 .ABC
+{
+  height: 130PX; 
+  width: 650PX;
+  /* background-color: lightblue; */
+  margin: 0 0 0 450px;
+}
+.ABC h3
 {
     font-size: 25px;
     color:#b99272;
-    padding: 100px 0 0 600px;
+    padding: 10px 0 0 20px;
 }
-.background1 h2
+.ABC h2
 {
  font-size: 45px;
- padding:  30px 0 0 500px;
+ padding:  10px 0 0 20px;
  color: #fff;
 }
 .background1 .X
@@ -443,7 +451,7 @@ body{
     background-color: #090c0f;;
     display: flex;
     justify-content:space-around;
-    margin: 20px 0 0 150px;
+    margin:50px 0 0 150px;
 }
 .X .x1
 {
@@ -756,21 +764,28 @@ body{
 {
     height: 800px;
     width: 100%;
-    background-image: url(C:/Users/Asus/Documents/pateldipu_github/flex/img/testimonials_bg2.jpeg);
+    background-image: url(C://Users/Asus/Documents/pateldipu_github/flex/img/testimonials_bg2.jpeg);
 }
-.background4 h3
+.ABCD
+{
+    height: 150PX;
+    width: 600px;
+    margin: 0 0 0 450px;
+    /* background-color: rgb(211, 231, 37); */
+}
+.ABCD h3
 {
     font-size: 25px;
     color: #b99272;
-    padding: 100px 0 0 600px;
+    padding: 30px 0 0 90px;
 }
-.background4 h2
+.ABCD h2
 {
     font-size: 45px;
     color: #fff;
     font-family: fantasy;
     letter-spacing: 5px;
-    padding: 50px 0 0 530px;
+    padding: 30px 0 0 50px;
 }
 .background4 .menu
 {

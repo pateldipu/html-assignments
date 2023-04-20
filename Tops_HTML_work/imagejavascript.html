@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.main
+		{
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+			grid-template-rows: 200px;
+			position: relative;
+		}
+		.img1 img
+		{
+			display: block;
+			object-fit: contain;
+		}
+		.images
+		{
+			object-fit: contain;
+			position: absolute;
+			top: 0;
+			left: 0;
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="img1" >
+			<img src="C:\Users\Asus\Downloads\th-1.jpeg" height="100%" width="100%" id="img1" onclick="getImage(image1)">
+		</div>
+		<img src="C:\Users\Asus\Downloads\th-2.jpeg" height="700px" width="100%" id="image1" class="images" onclick="removeImage(image1)">
+		<div class="img1" >
+			<img src="C:\Users\Asus\Downloads\th-1.jpeg" height="100%" width="100%" id="img2" onclick="getImage(image2)">
+		</div>
+		<img src="C:\Users\Asus\Downloads\th-1.jpeg" height="700px" width="100%" id="image2" class="images" onclick="removeImage(image2)">
+		<div class="img1" >
+			<img src="C:\Users\Asus\Downloads\th-1.jpeg" height="100%" width="100%" id="img3" onclick="getImage(image3)">
+		</div>
+		<img src="C:\Users\Asus\Downloads\th-1.jpeg" height="700px" width="100%" id="image3" class="images" onclick="removeImage(image3)">
+		<div class="img1" >
+			<img src="C:\Users\Asus\Downloads\th-1.jpeg" height="100%" width="100%" id="img4" onclick="getImage(image4)">
+		</div>
+		<img src="C:\Users\Asus\Downloads\th-1.jpeg" height="700px" width="100%" id="image4" class="images" onclick="removeImage(image4)">
+	</div>
+
+
+
+
+
+	<script>
+		i1 = document.getElementById('img1');
+		i2 = document.getElementById('img2');
+		i3 = document.getElementById('img3');
+		i4 = document.getElementById('img4');
+		i5 = document.getElementById('image1');
+		i6 = document.getElementById('image2');
+		i7 = document.getElementById('image3');
+		i8 = document.getElementById('image4');
+
+		function getImage(image)
+		{
+			image.style.display = "block";
+		}
+		function removeImage(image)
+		{
+			image.style.display = "none";
+		}
+	</script>
+</body>
+</html>
