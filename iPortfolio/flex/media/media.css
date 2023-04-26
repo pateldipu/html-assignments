@@ -1,0 +1,259 @@
+@media(max-width:1250px)
+{
+    .navbar{height: 70px; width: 100%;}
+    .navbar .a{height: 70px; width:auto; display: flex;}
+    .navbar .b{height: 70px; width:50%; margin: 0 0 0 20px;}
+
+    .foreground{ width: 100%;height: 900px; background-color: #0e1317;}
+    .foreground .V{height:550px; width: 100%; margin: 0 0 0 5px;}
+    .foreground .V .AB{height: 350px;width: 370px;}
+    .foreground .V .AB h2{font-size: 30px;} 
+    .foreground .V .AB h3{font-size:18px;}
+    .foreground .V  .AB2{height:100px;}
+    .foreground .V .AB2 img{height: 70px; margin: 10px 0  0 5px;}
+    .foreground .V .AB2 h1{font-size: 20px; margin: 10px 0 0 40px;}
+    .foreground .V .BA{height: 350px; width:370px;margin: 90px 0 0 0;}
+    .foreground .V .BA img{height: 350px; width: 370px;}
+    .foreground .card{ height: 900px; width:100%; margin: -50px 0 0 10px;}  
+    .foreground .card .card1{ height:350px; width: auto;  gap: 20px;} 
+    /* .foreground .card .card1 .image_card{height: 350px; width: 350px; } */
+
+
+    .background1{width: 100%; height: 900px; }
+    .background1 .ABC {height: 130px; width: 650px;  margin: 0 0 0 300px; }
+    .background1 .ABC h3{font-size: 20px; margin: 0 0 0 150px;}
+    .background1 .ABC h2{font-size: 45px;}
+    /* .background1 .X{ height:600px;width: 730px;  margin: 0 0 0 10px;} */
+    /* .background1 .X  .x1 { width: 370px;} */
+    /* .background1 .X .x1 .row1{height: 170px;} */
+    /* .background1 .X .x1 .row1 IMG{height: 100px; width: 100px;} */
+    /* .background1 .X .x1 .row1 .TEST{height:130px;width: 210px;  margin: 0 0 0 -20px;} */
+    /* .background1 .X .x1 .row1 .TEST h5{font-size: 20px;} */
+    /* .background1 .X .x1 .row1 .TEST h1{font-size: 18px;} */
+    /* .background1 .X .x1 .row1 .TEST p{font-size:18px;} */
+
+
+    .background2{height:800px; width: 100%;  padding: 80px 0 0 10px; }
+    .background2 .Y{ height: 700px; gap: 30px;}
+    .background2 .Y .y1{height: 800px; width: 370px; }
+    .background2 .Y .y1 .IMG1{height: 650px; width: 370px;}
+    .background2 .Y .y1 .y2{ flex-wrap: wrap; height: 90px; width: 370px; margin-top: 10px; }
+    .background2 .Y .y1 .y2 h6{font-size: 20px; margin-right: 100px; margin-top: 50px;}
+    .background2 .Y .y1 .y2 h5{font-size: 20px ; margin-right: 90px;}
+    .background2 .Y .y1 .y2 h4{font-size: 10px; color: aliceblue; }
+    .background2 .Y .y1 .y2 .icon{ height:50px; width:70px;}
+    .background2 .Y .y1 .y2 .icon img{ height: 50px; width: 70px; margin-left: -30px;}
+    .background2 .Y .y1 .y2  .TEST3{height: 90px; width: 250px;  margin-right: -10px; }
+    .background2 .Y .y1 .y2 .TEST3 h3{font-size: 20px; margin-right: 50px;}
+    .background2 .Y .y1 .y2 .TEST3 p{font-size: 7px;}
+    .background2 .Y .y1 .y2 .TEST3 h2{font-size: 18px;}
+
+    .background4{height: 700px; width:100%;}
+    .background4 .ABCD{height: 130px; width: 550px; margin: 0 0 0 80px; }
+    .background4 .ABCD h3{font-size: 20px; padding: 30px 0 0 20px;}
+    .background4 .ABCD h2{font-size: 40px; padding: 5px 0 0 20px;}
+    .background4 .menu{height:400px; width: 100%;} 
+    .background4  .circle{height: 50px; width: 100px; margin: 20px 0 0 80px; display: none;} 
+    .background4 .box{flex-wrap: wrap; gap: 10px;}
+    .background4 .box .DD{height:350px;width: auto; margin: -30px 0 0 -90px;}
+    .background4 .box img{height: 60px; width: 60px; margin: 20px 0 0 50px;}
+    .background4 .box .DD .dec{margin: 20px 0 0 35px;}
+
+    .background6{height:1300px;width: 100%;}
+    .background6 .card1{padding: 0 0 0 20px;}
+    .background6 .card1 .test6{height: 170px; width: 600px; margin: 0 0 0 250px;}
+    .background6 .card1 .test6  h1{font-size: 25px;}
+    .background6 .card5{ gap: 10px;  flex-wrap: wrap;}
+    .background6 .box4 .s{margin: 10px 0 0 150px;} 
+
+    /* .foreground2{width: 100%;} */
+   /* .foreground2 .TEST5{height: 100px; width: 550px;  margin: 0 0 0 -80px;} */
+   /* .foreground2 .TEST5  h1{font-size:25px;} */
+   /* .foreground2 .c .s{margin: 10px 0 0 -50px;} */
+}
+
+
+
+
+
+@media(max-width:770px)
+{
+    .navbar{height: 70px; width: 100%;}
+    .navbar .a{height: 70px; width:auto; display: flex;}
+    .navbar .b{display:none;}
+    .navbar .cc{display:none;}
+   
+    .background{background-position: center; width: 100%;}
+    .background .text{height: 350px; width:450px; margin:80px 0 0 20px;}
+    .background .text p{font-size: 15px; }
+    .background .text h2{ font-size: 55px; color: slategrey;}
+    .background .text .Y{height:50px; width: 150px; font-size:12px;}
+    .background .text .Z{ height: 50px; width: 150px; font-size: 12px; margin:-50px 0 0 180px;}
+
+    .foreground{ width: 100%;height: 900px; background-color: #0e1317;}
+    .foreground .V{height:550px; width: 100%; margin: 0 0 0 5px;}
+    .foreground .V .AB{height: 350px;width: 370px;}
+    .foreground .V .AB h2{font-size: 30px;} 
+    .foreground .V .AB h3{font-size:18px;}
+    .foreground .V  .AB2{height:100px;}
+    .foreground .V .AB2 img{height: 70px; margin: 10px 0  0 5px;}
+    .foreground .V .AB2 h1{font-size: 20px; margin: 10px 0 0 40px;}
+    .foreground .V .BA{height: 350px; width:370px;margin: 90px 0 0 0;}
+    .foreground .V .BA img{height: 350px; width: 370px;}
+    .foreground .card{ height: 900px; width:100%; margin: -50px 0 0 10px;}  
+    .foreground .card .card1{ height:350px; width: 720px;  gap: 20px;} 
+    /* .foreground .card .card1 .image_card{height: 350px; width: 350px; } */
+    
+    .background1{width: 100%; height: 900px; }
+    .background1 .ABC {height: 130px; width: 550px;  margin: 0 0 0 70px; }
+    .background1 .ABC h3{font-size: 20px; margin: 0 0 0 100px;}
+    .background1 .ABC h2{font-size: 40px;}
+    .background1 .X{ height:600px;width: 730px;  margin: 0 0 0 10px;}
+    .background1 .X  .x1 { width: 370px;}
+    .background1 .X .x1 .row1{height: 170px;}
+    .background1 .X .x1 .row1 IMG{height: 100px; width: 100px;}
+    .background1 .X .x1 .row1 .TEST{height:130px;width: 210px;  margin: 0 0 0 -20px;}
+    .background1 .X .x1 .row1 .TEST h5{font-size: 20px;}
+    .background1 .X .x1 .row1 .TEST h1{font-size: 18px;}
+    .background1 .X .x1 .row1 .TEST p{font-size:18px;}
+
+    .background2{height:800px; width: 100%;  padding: 80px 0 0 10px; }
+    .background2 .Y{ height: 700px; gap: 30px;}
+    .background2 .Y .y1{height: 800px; width: 370px; }
+    .background2 .Y .y1 .IMG1{height: 650px; width: 370px;}
+    .background2 .Y .y1 .y2{ flex-wrap: wrap; height: 90px; width: 370px; margin-top: 10px; }
+    .background2 .Y .y1 .y2 h6{font-size: 20px; margin-right: 100px; margin-top: 50px;}
+    .background2 .Y .y1 .y2 h5{font-size: 20px ; margin-right: 90px;}
+    .background2 .Y .y1 .y2 h4{font-size: 10px; color: aliceblue; }
+    .background2 .Y .y1 .y2 .icon{ height:50px; width:70px;}
+    .background2 .Y .y1 .y2 .icon img{ height: 50px; width: 70px; margin-left: -30px;}
+    .background2 .Y .y1 .y2  .TEST3{height: 90px; width: 250px;  margin-right: -10px; }
+    .background2 .Y .y1 .y2 .TEST3 h3{font-size: 20px; margin-right: 50px;}
+    .background2 .Y .y1 .y2 .TEST3 p{font-size: 7px;}
+    .background2 .Y .y1 .y2 .TEST3 h2{font-size: 18px;}
+
+    .background3{flex-wrap: wrap; height: 100%; gap: -10px;}
+
+    .background4{height: 1000px; width:100%;}
+    .background4 .ABCD{height: 130px; width: 550px; margin: 0 0 0 80px; }
+    .background4 .ABCD h3{font-size: 20px; padding: 30px 0 0 20px;}
+    .background4 .ABCD h2{font-size: 40px; padding: 5px 0 0 20px;}
+    .background4 .menu{height:400px; width: 100%;} 
+    .background4  .circle{height: 50px; width: 100px; margin: 20px 0 0 80px; display: none;} 
+    .background4 .box{flex-wrap: wrap; gap: 20px;}
+    .background4 .box .DD{height:350px;width: 300px; margin: -30px 0 0 -90px;}
+    .background4 .box img{height: 60px; width: 60px; margin: 20px 0 0 50px;}
+    .background4 .box .DD .dec{margin: 20px 0 0 35px;}
+
+    .background5{flex-wrap: wrap; height: 400px;}
+
+    .background6{height:1700px;width: 100%;}
+    .background6 .card1{padding: 0 0 0 20px;}
+    .background6 .card1 .test6{height: 170px; width: 500px;}
+    .background6 .card1 .test6  h1{font-size: 25px;}
+    .background6 .card5{ gap: 10px;  flex-wrap: wrap;}
+    .background6 .box4 .s{margin: 10px 0 0 150px;} 
+
+    .foreground2{width: 100%;}
+   .foreground2 .TEST5{height: 100px; width: 550px;  margin: 0 0 0 -80px;}
+   .foreground2 .TEST5  h1{font-size:25px;}
+   .foreground2 .c .s{margin: 10px 0 0 -50px;}
+
+   .footer{height: 800px; width: 100%;}
+   .footer .main2{flex-wrap: wrap; gap: 10px;}
+   .footer .main2 .box5{height: 300px;}
+   .footer .main3{margin: 300px 0 0 0;}
+   .footer .main3 .box6{margin: 0 0 0 60px;width: 550px; }
+   .footer .main3 .box6 h3{font-size:15px;}
+
+}
+@media(max-width:500px)
+{
+    .navbar{height: 70px; width: 100%;}
+    .navbar .a{height: 70px; width:auto; display: flex;}
+    .navbar .b{display:none;}
+    .navbar .cc{display:none;}
+
+    .background{background-position: center; width: 100%;}
+    .background .text{height: 400px; width:350px; margin:80px 0 0 20px;}
+    .background .text p{font-size: 15px; }
+    .background .text h2{ font-size: 55px; color: slategrey;}
+    .background .text .Y{height:50px; width: 150px; font-size:12px;}
+    .background .text .Z{ height: 50px; width: 150px; font-size: 12px; margin:-50px 0 0 180px;}
+
+    .foreground{ width: 100%;height: 1800px; background-color: #0e1317;}
+    .foreground .V{height:550px; width: 100%; flex-wrap: wrap; margin: 0 0 0 5px;}
+    .foreground .V .AB{height: 350px;width: 370px;}
+    .foreground .V .AB h2{font-size: 30px;} 
+    .foreground .V .AB h3{font-size:18px;}
+    .foreground .V  .AB2{height:100px;}
+    .foreground .V .AB2 img{height: 70px; margin: 10px 0  0 5px;}
+    .foreground .V .AB2 h1{font-size: 20px; margin: 10px 0 0 40px;}
+    .foreground .V .BA{height: 350px; width:370px;margin: 90px 0 0 0;}
+    .foreground .V .BA img{height: 350px; width: 370px;}
+    .foreground .card{ height: 900px; width: 370px; margin: 250px 0 0 10px;}  
+    .foreground .card .card1{ height:350px; width: 350px; flex-wrap: wrap;  gap: 20px;} 
+    
+    .background1{width: 100%; height: 1500px; }
+    .background1 .ABC {height: 130px; width: 350px;  margin: 0 0 0 30px;}
+    .background1 .ABC h3{font-size: 20px;}
+    .background1 .ABC h2{font-size: 35px;}
+    .background1 .X{ height:1300px;width: 370px; flex-wrap: wrap; margin: 0 0 0 10px;}
+    .background1 .X  .x1 { width: 370px;}
+    .background1 .X .x1 .row1{height: 170px;}
+    .background1 .X .x1 .row1 IMG{height: 100px; width: 100px;}
+    .background1 .X .x1 .row1 .TEST{height:130px;width: 210px;  margin: 0 0 0 -20px;}
+    .background1 .X .x1 .row1 .TEST h5{font-size: 20px;}
+    .background1 .X .x1 .row1 .TEST h1{font-size: 18px;}
+    .background1 .X .x1 .row1 .TEST p{font-size:18px;}
+    
+    .background2{height:1500px; width: 100%;  padding: 80px 0 0 10px; }
+    .background2 .Y{flex-wrap: wrap; height: 1400px; gap: 30px;}
+    .background2 .Y .y1{height: 800px; width: 370px; }
+    .background2 .Y .y1 .IMG1{height: 650px; width: 370px;}
+    .background2 .Y .y1 .y2{ flex-wrap: wrap; height: 90px; width: 370px; margin-top: 10px; }
+    .background2 .Y .y1 .y2 h6{font-size: 20px; margin-right: 100px; margin-top: 50px;}
+    .background2 .Y .y1 .y2 h5{font-size: 20px ; margin-right: 90px;}
+    .background2 .Y .y1 .y2 h4{font-size: 10px; color: aliceblue; }
+    .background2 .Y .y1 .y2 .icon{ height:50px; width:70px;}
+    .background2 .Y .y1 .y2 .icon img{ height: 50px; width: 70px; margin-left: -30px;}
+    .background2 .Y .y1 .y2  .TEST3{height: 90px; width: 250px;  margin-right: -10px; }
+    .background2 .Y .y1 .y2 .TEST3 h3{font-size: 20px; margin-right: 50px;}
+    .background2 .Y .y1 .y2 .TEST3 p{font-size: 7px;}
+    .background2 .Y .y1 .y2 .TEST3 h2{font-size: 18px;}
+
+    .background3{flex-wrap: wrap; height: 100%; gap: -10px;}
+     
+    .background4{height: 1650px; width:100%;}
+    .background4 .ABCD{height: 130px; width: 350px; margin: 0 0 0 30px;}
+    .background4 .ABCD h3{font-size: 20px; padding: 10px 0 0 20px;}
+    .background4 .ABCD h2{font-size: 30px; padding: 5px 0 0 20px;}
+    .background4 .menu{height:400px; width: 100%;} 
+    .background4  .circle{height: 50px; width: 100px; margin: 20px 0 0 80px; display: none;} 
+    .background4 .box{flex-wrap: wrap; gap: 20px;}
+    .background4 .box .DD{height:350px;width: 300px; margin: -30px 0 0 -90px;}
+    .background4 .box img{height: 60px; width: 60px; margin: 20px 0 0 50px;}
+    .background4 .box .DD .dec{margin: 20px 0 0 35px;}
+
+   .background5{flex-wrap: wrap; height: 650px;}
+
+   .background6{height:1700px;width: 100%;}
+   .background6 .card1{padding: 0 0 0 20px;}
+   .background6 .card1 .test6{height: 170px; width: 360px;}
+   .background6 .card1 .test6  h1{font-size: 25px;}
+   .background6 .card5{flex-wrap: wrap; gap: 10px; width: 300px;}
+   .background6 .box4 .s{margin: 10px 0 0 150px;}
+   
+   .foreground2{width: 100%;}
+   .foreground2 .TEST5{height: 100px; width: 350px;  margin: 0 0 0 -80px;}
+   .foreground2 .TEST5  h1{font-size:25px;}
+   .foreground2 .c .s{margin: 10px 0 0 -50px;}
+   
+   .footer{height: 1420px; width: 100%;}
+   .footer .main2{flex-wrap: wrap; gap: 10px;}
+   .footer .main2 .box5{height: 300px;}
+   .footer .main3{margin: 950px 0 0 0;}
+   .footer .main3 .box6{margin: 0 0 0 -160px;width: 500px; }
+   .footer .main3 .box6 h3{font-size:15px;}
+   
+}

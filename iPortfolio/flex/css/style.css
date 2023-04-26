@@ -134,7 +134,7 @@ body{
     /* background-color: yellowgreen; */
     position: relative;
 
-    background-image: url("C://Users/Asus/Desktop/pateldipu_github/html-assignments/flex/img/started_img_n3.jpg");
+    background-image: url("C://Users/Asus/Desktop/pateldipu_github/html-assignments/iPortfolio/flex/img/started_img_n3.jpg");
     /* background-repeat: no-repeat; */
     /* background-attachment: fixed; */
     /* background-position: center; */
@@ -546,7 +546,7 @@ body{
     width: 570px;
     /* background-color: #6c757d; */
     /* overflow: hidden; */
-    background-image: url(C:/Users/Asus/Documents/pateldipu_github/flex/img/choose_img.jpg);
+    background-image: url(C://Users/Asus/Documents/pateldipu_github/flex/img/choose_img.jpg);
     background-position: center;
 }
 .y1 .y2
@@ -764,7 +764,7 @@ body{
 {
     height: 800px;
     width: 100%;
-    background-image: url(C://Users/Asus/Documents/pateldipu_github/flex/img/testimonials_bg2.jpeg);
+    background-image: url("C://Users/Asus/Desktop/pateldipu_github/html-assignments/iPortfolio/flex/img/testimonials_bg2.jpeg");
 }
 .ABCD
 {
@@ -800,6 +800,7 @@ body{
 {
     height: 50px;
     width: 100px;
+    display: block;
     /* background-color: white; */
     margin: 20px 0 0 670px;
     text-align: center;
@@ -942,7 +943,6 @@ body{
 {
     height:850px;
     width: 100%;
-   
     background-color: #090c0f;
 }
 .background6 .card1
@@ -956,7 +956,7 @@ body{
 {
     height: 190px;
     width: 800px;
-    /* background : rgb(198, 182, 176); */
+    background : rgb(198, 182, 176);
     text-align: center;
     line-height:70px;
 }
@@ -1109,7 +1109,7 @@ body{
     height: 300px;
     width: 100%;
     
-    background-image:url(C://Users/Asus/Desktop/pateldipu_github/html-assignments/flex/img/service3.jpg) ;
+    background-image:url("C://Users/Asus/Desktop/pateldipu_github/html-assignments/iPortfolio/flex/img/service3.jpg") ;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
