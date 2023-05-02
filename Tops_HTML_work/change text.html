@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<h1 id="hd" onmouseenter="test()" onmouseleave="test123()" >HELLO</h1>
+	<button onclick ="textchange() ">chnage me</button>
+
+	<script type="text/javascript">
+		
+		h1_tag = document.getElementById('hd')
+
+        function test()
+         {
+        	h1_tag.innerHTML="vivek"
+        }
+
+        function test123()
+         {
+        	h1_tag.innerHTML="dimpal"
+        }
+
+		function textchange() 
+		{
+			console.log(h1_tag.innerHTML)
+			if (h1_tag.innerHTML = "hello") 
+			{
+				h1_tag.innerHTML="vivek";
+			}
+
+			else
+			{
+				h1_tag.innerHTML="Hello";
+			}
+		}
+	</script>
+
+</body>
+</html>
