@@ -187,6 +187,8 @@ jQuery.validator.addMethod('numericonly', function(error,element){
 $('#submit').click(function(e){
     alert($("#submit").val())
 
+    document.getElementById('demo').required = "This field is required";
+
    if(e.val() == "")
    {
      alert("hi")
