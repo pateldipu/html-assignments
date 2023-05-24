@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    // Rest parameter: The rest parametr syntax allows us to 
+    //   represnt an isFinite number of arguments as an Array.
+
+    function Demo(...data)
+    {
+        let sum=0;
+        for(let i of data)
+        {
+            sum+=i;
+        }
+        return sum;
+    }
+    console.log(Demo(2,3));
+    console.log(Demo(2,2,2,3));
+    console.log(Demo(2,5,5,4,2));
+</script>

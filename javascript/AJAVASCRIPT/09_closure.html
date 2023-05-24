@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    // closure = Inner function can access vaible and parameter 
+    //     of an outer function(however, can not access arguments object of outer function).
+
+     function outer()
+     {
+        let count = 0;
+        function inner()
+        {
+            return count+=1
+        }
+        return inner;
+     }
+
+     const data= outer();
+     console.log(data());
+     console.log(data());
+     console.log(data());
+
+    function Test()
+    {
+        let a ="welcome Test";
+          function foo()
+          {
+            return a;
+          }
+          return foo;
+    }
+    const x=Test();
+    console.log(x());
+
+</script>
