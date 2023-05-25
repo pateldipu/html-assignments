@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <style>
+      .main
+      {
+        height: 750px;
+        width: 600px;
+        background-color: lightgray;
+        margin: 50px auto;
+        padding-top: 50px;
+      }
+      .reg
+      {
+        height:670px ;
+        width: 500px;
+        background-color: white;
+        margin: 0px auto;
+        text-align: center;
+        border-top: 10px solid orange;
+      }
+      h1
+      {
+        padding-bottom: 30px;
+      }
+      .email
+      {
+        height: 40px;
+        width: 90%;
+        /* background-color: aliceblue; */
+        margin: 20px auto;
+        display: flex;
+      }
+      .email .font
+      {
+        width: 10%;
+        height: 40px;
+        border: 1px solid;
+      }
+      .font i
+      {
+        font-size: 20px;
+        line-height: 40px;
+      }
+      .email .inp
+      {
+        width: 90%;
+        height: 40px;
+        border: 1px solid;
+      }
+      .inp input
+      {
+        height: 37px;
+        width: 98%;
+        border: none;
+       font-size: 20px;
+      }
+      .email1
+      {
+        display: flex;
+        width: 45%;
+      }
+      .email1 .font
+      {
+        width: 15%;
+        height: 40px;
+        border: 1px solid;
+      }
+      .font i
+      {
+        font-size: 18px;
+        line-height: 40px;
+      }
+      .email1 .inp
+      {
+        width: 85%;
+        height: 40px;
+        border: 1px solid;
+      }
+      .inp input
+      {
+        width: 97%;
+      }
+      .gender
+      {
+        text-align: start;
+        width: 90%;
+        margin: 20px auto;
+      }
+      .country
+      {
+        height: 40px;
+        width: 90%;
+        margin: 20px auto;
+      }
+      .country select
+      {
+        height: 40px;
+        width: 100%;
+        padding-left: 20px;
+        font-size: 18px;
+      }
+      .right
+      {
+        display: flex;
+        height: 30px;
+        width: 90%;
+        margin: 10px auto;
+        /* background-color: aqua; */
+      }
+      .right p
+      {
+        margin: 5px 10px;
+      }
+      button
+      {
+        width: 90%;
+        background-color: orange;
+        color: white;
+        border: none;
+        padding: 15px 0;
+        font-size: 18px;
+      }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="reg">
+            <h1>Responsive Registration Form</h1>
+            <div class="email">
+               <div class="font">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+               </div>
+               <div class="inp">
+                <input type="text" name="" placeholder="Email" id="eml" onclick="emerror(eml)">
+               </div>
+            </div>
+            <div class="email">
+                <div class="font">
+                 <i class="fa fa-lock" aria-hidden="true"></i>
+                </div>
+                <div class="inp">
+                 <input type="text" placeholder="Password" id="pwd" onblur="psderror(pwd)">
+                </div>
+             </div>
+             <div class="email">
+                <div class="font">
+                 <i class="fa fa-lock" aria-hidden="true"></i>
+                </div>
+                <div class="inp">
+                 <input type="password" name="" placeholder="Re-type Password" id="repwd" onblur="same(this,pwd)">
+                </div>
+             </div>
+             <div class="email">
+                <div class="font">
+                 <i class="fa fa-phone" aria-hidden="true"></i>
+                </div>
+                <div class="inp">
+                 <input type="text" name="" id="monum" placeholder="Mobile Number" onblur="number(monum)">
+                </div>
+             </div>
+             <div class="email" style="justify-content: space-between;">
+                <div class="email1">
+                    <div class="font">
+                        <i class="fa fa-user" aria-hidden="true" ></i>
+                       </div>
+                       <div class="inp">
+                        <input type="text" name="" placeholder="First Name" id="fnm" onclick="error(fnm)">
+                       </div>
+                </div>
+                <div class="email1">
+                    <div class="font">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                       </div>
+                       <div class="inp">
+                        <input type="text" name="" placeholder="Last Name" id="lnm" onclick="error(lnm)">
+                       </div>
+                </div>
+             </div>
+
+             <div class="gender">
+                <input type="radio" name="gender" value="male"> Male <input type="radio" name="gender" value="female"> Female
+             </div>
+
+             <div class="country">
+                <select name="" id="" >
+                    <option value="0" select="selected" label="Select a country...."> Select a country</option>
+                    <option value="India">India</option>
+                    <option value="">Europe</option>
+                    <option value="">Afganistan</option>
+                </select>
+             </div>
+
+             <div class="right" style="text-align: start;">
+                <input type="checkbox"><p>I Agree With Term And Condition</p>
+             </div>
+             <div class="right" style="text-align: start;">
+                <input type="checkbox"><p>I Want receice the newsletter</p>
+             </div>
+
+             <button id="btn" style="cursor: pointer;">Register</button>
+        </div>
+    </div>
+    <script>
+        const para=document.createElement("p");
+        para.innerText="please enter the valid  value";
+
+        function emerror(e)
+        {
+            if(e.value=="")
+            {
+                alert(para.innerHTML)
+            }
+        }
+
+
+        function psderror(p)
+        {
+            if(p.value=="")
+            {
+                alert(para.innerHTML)
+            }
+        }
+
+        function same(x,y)
+        {
+            if(x.value!=y.value)
+            {
+                alert("error")
+            }
+        }
+
+        function number(z)
+        {
+            const num=/^[0-9]{10}$/;
+            if(num.test(z.value))
+            {
+               
+            }
+            else
+            {
+                alert("please enter valid mobile number")
+            }
+        }
+
+    </script>
+</body>
+</html>
