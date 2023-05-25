@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-color: black;
+        }
+        .main
+        {
+            height: 550px;
+            width: 550px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            background-color: aqua;
+            margin-top: -240px;
+            margin-left: -240px;
+
+        }
+        .main .rn
+        {
+            position: absolute;
+            text-align: center;
+            margin: 0 auto;
+        }
+@keyframes el-animate-1 {
+  0% {
+    border-color: #f7f7f7;
+    transform: rotate(0deg);
+  }
+  25% {
+    border-color: #097909;
+    transform: rotate(45deg);
+  }
+  75% {
+    border-color: #7909f7;
+    transform: rotate(135deg);
+  }
+  100% {
+    border-color: #f7f7f7;
+    transform: rotate(180deg);
+  }
+}
+.rn.ring1 {
+  border: 2px solid black;
+  border-color: #f7f7f7;
+  left: 8px;
+  top: 8px;
+  width: 464px;
+  height: 464px;
+  border-radius: 162.4px;
+  -webkit-animation: el-animate-1 2.5s linear;
+  -moz-animation: el-animate-1 2.5s linear;
+  animation: el-animate-1 2.5s linear;
+  -webkit-animation-delay: 3.0208333333s;
+  -moz-animation-delay: 3.0208333333s;
+  animation-delay: 3.0208333333s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes el-animate-2 {
+  0% {
+    border-color: #eeeeee;
+    transform: rotate(0deg);
+  }
+  25% {
+    border-color: #117511;
+    transform: rotate(45deg);
+  }
+  75% {
+    border-color: #7511ee;
+    transform: rotate(135deg);
+  }
+  100% {
+    border-color: #eeeeee;
+    transform: rotate(180deg);
+  }
+}
+@-moz-keyframes el-animate-2 {
+  0% {
+    border-color: #eeeeee;
+    transform: rotate(0deg);
+  }
+  25% {
+    border-color: #117511;
+    transform: rotate(45deg);
+  }
+  75% {
+    border-color: #7511ee;
+    transform: rotate(135deg);
+  }
+  100% {
+    border-color: #eeeeee;
+    transform: rotate(180deg);
+  }
+}
+@keyframes el-animate-2 {
+  0% {
+    border-color: #eeeeee;
+    transform: rotate(0deg);
+  }
+  25% {
+    border-color: #117511;
+    transform: rotate(45deg);
+  }
+  75% {
+    border-color: #7511ee;
+    transform: rotate(135deg);
+  }
+  100% {
+    border-color: #eeeeee;
+    transform: rotate(180deg);
+  }
+}
+.rn.ring2 {
+  border: 2px solid black;
+  border-color: #f7f7f7;
+  left: 16px;
+  top: 16px;
+  width: 448px;
+  height: 448px;
+  border-radius: 162.4px;
+  -webkit-animation: el-animate-2 2.5s linear;
+  -moz-animation: el-animate-2 2.5s linear;
+  animation: el-animate-2 2.5s linear;
+  -webkit-animation-delay: 3.0208333333s;
+  -moz-animation-delay: 3.0208333333s;
+  animation-delay: 3.0208333333s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+    </style>
+</head>
+<body>
+    <div class="main">
+         <div class="rn ring1"></div>
+         <div class="rn ring2"></div>
+         <div class="rn ring3"></div>
+         <div class="rn ring4"></div>
+         <div class="rn ring5"></div>
+         <div class="rn ring6"></div>
+         <div class="rn ring7"></div>
+    </div>
+    
+</body>
+</html>
