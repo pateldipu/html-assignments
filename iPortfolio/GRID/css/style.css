@@ -4,6 +4,11 @@
     padding: 0;
     box-sizing: border-box; 
 }
+body
+{
+    overflow-x: hidden;
+}
+
 /* <!--nav start--> */
 .navbar
 {
@@ -500,8 +505,8 @@
     height: 700px;
     width: 90%;
     margin: 100px 0 0 100px;
-    /* background-color: #656565; */
-    background-image: url(C://Users/Asus/Desktop/pateldipu_github/html-assignments/GRID/img/video-placeholder.jpg);
+    background-color: #656565;
+    background-image: url(C://Users/Asus/Desktop/pateldipu_github/html-assignments/iPortfolio/GRID/img/video-placeholder.jpg);
     background-position: center;
 }
  .icon img
