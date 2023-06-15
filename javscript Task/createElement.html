@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="d1">
+        <p id="para">p1</p>
+        <p id="para">p2</p>
+        <p id="p">p3</p>
+        <p id="para">p4</p>
+        <!-- <h1>Hello</h1> -->
+    </div>
+    
+
+    <script>
+
+      div_tag =   document.getElementById('d1');
+
+      p3_tag =   document.getElementById('p');
+
+     h1= document.createElement('h1');//<h1></h1>
+     txt =  document.createTextNode("JS is Awesome..!");//JS is Awesome..!
+
+        h1.append(txt);
+     // <h1>JS is Awesome..!</h1>
+
+    //  div_tag.append(h1);
+
+    // div_tag.appendChild(h1);
+
+    // p3_tag.prepend(h1)
+
+    // div_tag.insertBefore(h1,p3_tag);
+
+    p3_tag.before(h1)
+
+    </script>
+</body>
+</html>

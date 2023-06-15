@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    Name: <input type="text" id="nm" onblur=" validateForm(nm,nmErr)">
+          <span id="nmErr"></span>
+          <br><br>
+
+    Mobile: <input type="text" id="mb" onblur=" validateForm(mb,mbErr)">
+            <span id="mbErr"></span> 
+    
+            <br><br>
+  
+    <script>
+
+        // function test(e,s)
+        // {
+
+        // }
+        // test(12,34)
+    
+
+       function validateForm(dhruv,vivek)
+       {
+
+        console.log(e)
+        console.log(spId)
+
+        if(e.value =="")
+        {
+            spId.innerHTML ="Required"
+            spId.style.color ="Red"
+        }
+
+        else
+        {
+            spId.innerHTML =""
+        }
+       
+       }
+      
+    </script>
+    
+</body>
+</html>

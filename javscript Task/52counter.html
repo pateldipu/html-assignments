@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="c"></h1>
+
+    <script>
+
+        test = setInterval("testCount()",10)
+        count =0;
+        
+
+        function testCount()
+        {
+            h1_tag = document.getElementById('c');
+            h1_tag.innerHTML = ++count;
+
+            if(count==500)
+            {
+                clearInterval(test)
+            }
+        }
+        
+
+    </script>
+    
+</body>
+</html>

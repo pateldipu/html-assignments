@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="refresh" content="5,url=https://www.amazon.in/"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{margin: 0;}
+        header 
+        {
+            background: gray;
+            /* height: 100px; */
+            position: fixed;
+            top:0;
+            width: 100%;
+            padding: 20px 0;
+
+            font-size: 55px;
+
+            transition: 1s;
+        }
+
+        nav 
+        {
+            background: coral;
+            height: 50px;
+            margin-top: 100px;
+        }
+
+        section 
+        {
+            background: lightblue;
+            height: 900px;
+        }
+
+        footer 
+        {
+            background: olive;
+            height: 100px;
+        }
+
+        
+        
+
+    </style>
+  
+</head>
+<body onscroll="scrollEffect()">
+<!-- HTML 4 layout
+    <div class="header">header</div>
+    <div class="nav">header</div>
+    <div class="content">header</div>
+    <div class="footer">header</div> -->
+<!-- HTML 5 Layout -->
+<header id="header">header</header>
+<nav>nav</nav>
+<section>Content</section>
+<footer>Footer</footer>
+
+<script>
+  header_tag =   document.getElementById('header');
+  console.log(header_tag)
+
+ function scrollEffect()
+ {
+    if(document.documentElement.scrollTop > 300)
+    {
+        header_tag.style.padding = "20px 0";
+         header_tag.style.fontSize = "20px";
+         header_tag.style.top ='-100px';
+    }
+    else
+    {
+        header_tag.style.padding = "20px 0";
+         header_tag.style.fontSize = "55px";
+         header_tag.style.top ='0px';
+    }
+ }
+ 
+</script>
+
+   
+
+    
+
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <input type="radio" name="gender" id="">Male <br>
+    <input type="radio" name="gender" id="">Female <br>
+    <input type="radio" name="gender" id="">x <br>
+    <input type="radio" name="gender" id="">y <br>
+
+    
+    <h1 class="x" id="x">hello1</h1>
+    <h1 class="x" id="x">hello2</h1>
+    <h1 class="x" id="x">hello3</h1>
+    <h1 class="x" id="x">hello4</h1>
+
+    <script>
+        h1_class = document.getElementsByClassName('x');
+
+       // h1_id = document.getElementById('x');
+
+    //    h1_id = document.querySelector('.x');
+
+    h1_id = document.querySelector('#x');
+
+   // document.getElementById('x')  = document.querySelector('.x') =document.querySelector('#x')
+
+   h1_AllClass = document.querySelectorAll('.x');
+
+   h1_AllId= document.querySelectorAll('#x');
+
+
+  h1_Alltags =  document.getElementsByTagName('h1')
+
+  input_tags = document.getElementsByName('gender')
+        console.log(input_tags)
+        console.log(h1_class)
+        console.log(h1_id)
+        console.log(h1_AllClass)
+        console.log(h1_AllId)
+        console.log(h1_Alltags)
+    </script>
+
+
+</body>
+</html>

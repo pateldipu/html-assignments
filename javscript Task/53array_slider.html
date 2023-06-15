@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+ <style>
+  .xyz 
+  {
+    animation: test 2s;
+  }
+
+  @keyframes test
+  {
+    0%{transform: scale(1);}
+    100%{transform: scale(1.5);}
+  }
+
+  .dhruv 
+  {
+    height: 300px;
+    overflow: hidden;
+  }
+ </style>
+</head>
+<body>
+
+ <div class="dhruv">
+  <img src="1.jpg" alt="" height="300px" width="100%" id="x" class="x">
+  <img src="2.jpg" alt="" height="300px" width="100%" id="x" class="x">
+  <img src="3.jpg" alt="" height="300px" width="100%" id="x" class="x">
+  <img src="4.jpg" alt="" height="300px" width="100%" id="x" class="x">
+
+  <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/Thar/8076/1601635839903/front-left-side-47.jpg?imwidth=420&impolicy=resize" alt="" height="300px" width="100%" id="x" class="x">
+  <img src="https://carwow-uk-wp-3.imgix.net/18015-MC20BluInfinito-scaled-e1666008987698.jpg" alt="" height="300px" width="100%" id="x" class="x">
+  <img src="https://s3images.zee5.com/wp-content/uploads/2021/09/fastest-cars-world-2021-luxe-digital@2x.jpeg" alt="" height="300px" width="100%" id="x" class="x">
+ </div>
+ 
+
+  <script>
+    // images = document.getElementById('x');
+
+    index =0;
+    function slider()
+    {
+    
+    images = document.getElementsByClassName('x');
+    for(i=0;i<images.length;i++)
+    {
+      images[i].style.display="none";
+
+      images[i].classList.add('xyz')
+      
+    }
+     images[index].style.display="block";
+
+     index++;//4
+
+     if(index==images.length)
+     {
+      index=0;
+     }
+
+     setTimeout("slider()",1000)
+    }
+
+    slider();
+
+  </script>
+
+  
+
+    
+</body>
+</html>

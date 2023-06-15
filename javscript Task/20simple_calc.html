@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="text"  id="n1">
+    <input type="text"  id="n2">
+
+    <b id="res"></b>
+
+    <br><br>
+
+    <input type="submit" onclick=" addNums()" value="+">
+    <input type="submit" onclick=" subNums()" value="-">
+    <input type="submit" onclick=" mulNums()" value="*">
+    <input type="submit" onclick=" divNums()" value="/">
+    <input type="submit" onclick=" modNums()" value="%">
+
+    <script>
+
+        num1 = document.getElementById('n1');
+        num2 = document.getElementById('n2');
+        b_tag = document.getElementById('res');
+
+        
+
+        // console.log(num1)
+        // console.log(num1.value)
+
+        // console.log(num2)
+        // console.log(num2.value)
+
+
+        // console.log( parseInt(num1.value) +  parseInt(num2.value))
+
+
+        // document.write(parseInt(num1.value) +  parseInt(num2.value))
+
+        function addNums()
+        {
+          //  document.write(parseInt(num1.value) +  parseInt(num2.value))
+
+            b_tag.innerHTML = parseInt(num1.value) +  parseInt(num2.value)
+        }
+
+        function subNums()
+        {
+          //  document.write(parseInt(num1.value) +  parseInt(num2.value))
+
+            b_tag.innerHTML = parseInt(num1.value) -  parseInt(num2.value)
+        }
+
+
+        function mulNums()
+        {
+          //  document.write(parseInt(num1.value) +  parseInt(num2.value))
+
+            b_tag.innerHTML = parseInt(num1.value) *  parseInt(num2.value)
+        }
+
+        function divNums()
+        {
+          //  document.write(parseInt(num1.value) +  parseInt(num2.value))
+
+            b_tag.innerHTML = parseInt(num1.value) /  parseInt(num2.value)
+        }
+
+        function modNums()
+        {
+          //  document.write(parseInt(num1.value) +  parseInt(num2.value))
+
+            b_tag.innerHTML = parseInt(num1.value) %  parseInt(num2.value)
+        }
+       
+
+    </script>
+    
+</body>
+</html>

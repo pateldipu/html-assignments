@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p class="x">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum odio quia ducimus. Molestiae omnis natus recusandae aliquam dignissimos hic ad praesentium possimus vitae minus quos, sapiente asperiores id ipsa ipsum.
+    </p>
+
+    <button id="b" >
+        hide
+    </button>
+
+    <script>
+
+        p = document.querySelector('.x');
+        b = document.querySelector('#b');
+        console.log(p)
+        console.log(b)
+
+       
+
+        // b.addEventListener("mouseenter",hide);
+   //     function hide()
+    //    {
+    //     p.style.display ="none"
+    //    }
+        /*
+        Syntax:
+        varname.addEventListener("eventName",FunctionName)
+
+        */
+
+
+    //     b.addEventListener("mouseenter", function hide()
+    //    {
+    //     p.style.display ="none"
+    //    });
+    //    
+
+    b.addEventListener("click",  ()=>     
+     {
+        p.style.display ="none"
+        b.innerHTML ="Show"
+     })
+
+
+
+    </script>
+    
+</body>
+</html>

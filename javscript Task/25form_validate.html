@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    Name: <input type="text" id="nm"  > <br><br>
+    Password: <input type="text" id="pass"> <br><br>
+    Confirm Password: <input type="text" id="cpass"> <br><br>
+    Mobile: <input type="text" id="mb"> <br><br>
+     <input type="submit" onclick="ValidateForm()"> <br><br>
+
+     <script>
+
+        // name = document.getElementById('nm');
+        // console.log(name)
+
+        name1 = document.getElementById('nm');
+        pwd = document.getElementById('pass');
+        cpwd = document.getElementById('cpass');
+        mobile = document.getElementById('mb');
+
+        console.log(name1)
+        console.log(name1.value)
+
+        function ValidateForm()
+        {
+            if(name1.value == "")
+            {
+                alert("*Name is required..!");
+            }
+
+            if(pwd.value == "")
+            {
+                alert("*Password is required..!");
+            }
+
+            if(pwd.value !=cpwd.value)
+            {
+                alert("*Passwords DO NOT MATCH..!");
+            }
+
+
+            if(mobile.value == "")
+            {
+                alert("*Mobile is required..!");
+            }
+           
+        }
+     </script>
+</body>
+</html>

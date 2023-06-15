@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="h" onmouseenter="test()" onmouseleave="test123()">HELLO</h1>
+    
+    <!-- <button onclick=" test()">Change ME</button> -->
+    <button onclick=" changeText()">Change ME</button>
+
+    <script>
+        h1_tag = document.getElementById('h');
+
+    //    function test()
+    //    {
+    //     h1_tag.innerHTML ="dklfj"
+    //    }
+
+    //    function test123()
+    //    {
+    //     h1_tag.innerHTML ="hello"
+    //    }
+
+    function changeText()
+    {
+       console.log(h1_tag.innerHTML)//Harsh
+
+        if(h1_tag.innerHTML == "HELLO")///Hello == HELLO
+        {
+            h1_tag.innerHTML ="Harsh";
+        }
+
+
+        else{
+            h1_tag.innerHTML ="HEllo"
+        }
+
+      
+    }
+
+       
+
+      
+    </script>
+</body>
+</html>

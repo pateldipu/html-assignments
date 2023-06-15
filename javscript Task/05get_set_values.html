@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="h1">Heading 1</h1>
+    <div id="d1">Div tag</div>
+    <p id="p1">Paragraph</p>
+
+
+    <input type="text" value ="hello" id="inp">
+
+    <img src="x.jpg" alt="no image" id="i1" height="100px" width="100px">
+    <a href="x.html" id="a1">Link HOME</a>
+
+
+    <script>
+
+        div_tag = document.getElementById('d1');
+        h1_tag = document.getElementById('h1');
+        p_tag = document.getElementById('p1');
+        a_tag = document.getElementById('a1');
+        input_tag = document.getElementById('inp');
+        img_tag = document.getElementById('i1');
+
+        div_tag.innerHTML =" Umer";
+        h1_tag.innerHTML =" Umer";
+        p_tag.innerHTML =" Umer";
+        a_tag.innerHTML =" Umer";
+
+        input_tag.value ="test123";
+
+        img_tag.src ="y.jpg";
+
+      //  a=45;
+        document.write( img_tag.src);
+
+        alert( img_tag.alt)
+
+    </script>
+    
+</body>
+</html>
