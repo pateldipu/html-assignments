@@ -6,6 +6,7 @@ const Home = lazy(()=>import('./component/Home'))
 const About = lazy(()=>import('./component/About'))
 
 
+
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
             <Home/>
             <Suspense fallback = {<div>LOADING......</div>}>
               <About/>
+              
             </Suspense>
       </div>
     </>
