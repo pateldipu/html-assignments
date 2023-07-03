@@ -3,14 +3,14 @@ import React from 'react';
 function Navbar(props) {
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light  ">
                 <div className="container-fluid ">
                     <a className="navbar-brand" href="#"><img src="/img/logo.svg" alt="" /></a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <form className="d-flex searchn m-auto">
+                    <form className="d-flex searchn m-auto ">
                         <select name="catogry" id="" className='catogry'>
                             <option value="data">All Categories</option>
                             <option value="data">Milks and Dairies</option>
@@ -48,8 +48,8 @@ function Navbar(props) {
                 </div>
             </nav>
         <hr />
-            <nav>
-                <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className='sticky-top '>
+                <nav className="navbar navbar-expand-lg navbar-light bg-light ">
                     <div className="container-fluid">
                         <div className="Browser">
                             <a className="navbar-brand" href="#"><i class="fa-solid fa-grip-vertical"></i> Browse All Categories <i class="fa-sharp fa-solid fa-arrow-down"></i></a>

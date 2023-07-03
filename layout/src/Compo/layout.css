@@ -56,17 +56,19 @@ img{
 .Browser{
     background-color: #3bb77e;
     padding: 10px;
+ 
     border-radius: 5px;
 }
 .Browser a{
     color: white!important;
+    font-size: 19px;
 }
 
 .navbar-nav li{
     margin: 5px 10px;
 }
 .navbar-nav li .nav-link{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     color: black!important;
 }
