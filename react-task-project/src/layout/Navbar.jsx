@@ -1,10 +1,13 @@
 import React from 'react';
+import{
+    Link,
+  } from "react-router-dom"
 
 function Navbar(props) {
     return (
         <>
         
-          <nav class="navbar navbar-expand-lg navbar-light"  style={{backgroundColor:' #141414'}}>
+          <nav class="navbar navbar-expand-lg navbar-ligh "  style={{backgroundColor:' #141414'}}>
                 <div class="container-fluid mybord">
                         <a class="navbar-brand txt " href="#"><i class="fa-brands fa-flipboard"></i> Flipboard</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
