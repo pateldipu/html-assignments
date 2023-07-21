@@ -3,6 +3,7 @@ import Navbar from './Navbar'
 import Header from './header';
 import Nav from './Nav'
 import Entermenets from './Entermenets';
+import Footer from './Footer';
 
 function Entermain(props) {
     return (
@@ -11,6 +12,7 @@ function Entermain(props) {
            <Header/>
           <Nav/>
         <Entermenets/>
+        <Footer/>
         </>
     );
 }

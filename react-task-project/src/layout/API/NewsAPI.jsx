@@ -9,6 +9,8 @@ const NewsAPI = [
         add: '' ,
         condition:'',
         data:'Axios-News',
+        heart:"4",
+
     },
     {
         id:2,
@@ -20,6 +22,8 @@ const NewsAPI = [
         add: '' ,
         condition:'6 hours ago ',
         data:'NBC News-Lawrence Hurley',
+        heart:"4",
+
     },
     {
         id:3,
@@ -31,6 +35,8 @@ const NewsAPI = [
         add: '' ,
         condition:'7 hours ago ',
         data:'USA TODAY-John Fritze',
+        heart:"4",
+
     },
     {
         id:4,
@@ -42,6 +48,8 @@ const NewsAPI = [
         add: '' ,
         condition:'Now ',
         data:'Kyiv Post',
+        heart:"4",
+
     },
     {
         id:5,
@@ -53,6 +61,8 @@ const NewsAPI = [
         add: '' ,
         condition:'7 hours ago ',
         data:'CBS News',
+        heart:"4",
+
     },
     {
         id:6,
@@ -64,6 +74,8 @@ const NewsAPI = [
         add: '' ,
         condition:'21 hours ago ',
         data:'ABC News-Aaron Katersky',
+        heart:"4",
+
     },
     {
         id:7,
@@ -75,6 +87,8 @@ const NewsAPI = [
         add: '' ,
         condition:'13 hours ago ',
         data:' NPR-Emma Bowman',
+        heart:"4",
+
     },
     {
         id:8,
@@ -85,7 +99,9 @@ const NewsAPI = [
         info:'Murder Suspect featured on "America"s  Most Wanted arrested after nearly 4 decades on the run',
         add: '' ,
         condition:'6 hours ago ',
-        data:'NBC News-The Associated Press',    
+        data:'NBC News-The Associated Press',  
+        heart:"4",
+  
     },
     {
         id:9,
@@ -97,6 +113,8 @@ const NewsAPI = [
         add: '' ,
         condition:'1 day  ago ',
         data:'Rolling Stone-Adam Rawnsely',
+        heart:"4",
+
     },
     {
         id:10,
@@ -108,6 +126,8 @@ const NewsAPI = [
         add: '' ,
         condition:'1 day ago ',
         data:'CBS News',
+        heart:"4",
+
     },
     {
         id:11,
@@ -119,6 +139,8 @@ const NewsAPI = [
         add: '' ,
         condition:'2 hours ago ',
         data:'ABC News',
+        heart:"4",
+
     },
     {
         id:12,
@@ -130,6 +152,8 @@ const NewsAPI = [
         add: '' ,
         condition:'1 day ago ',
         data:'Kyiv Post-Steve Brown',
+        heart:"4",
+
     },
 
   

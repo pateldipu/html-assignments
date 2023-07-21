@@ -9,6 +9,8 @@ const EnterAPI = [
         add: '' ,
         condition:'',
         data:'Axios-News',
+        heart:"4",
+
     },
     {
         id:2,
@@ -20,6 +22,7 @@ const EnterAPI = [
         add: '' ,
         condition:'6 hours ago ',
         data:'NBC News-Lawrence Hurley',
+        
     },
     {
         id:3,

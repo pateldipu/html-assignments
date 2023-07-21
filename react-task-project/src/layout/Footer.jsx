@@ -9,27 +9,28 @@ function Footer(props) {
                     
                     
                         
-                    <a href="" className='mx-2'>Log in </a>
+                    <a href="" className='mx-2'><u>Log in</u> </a>
 
-                    <a href="" className='mx-2'>Newsletters</a>
+                    <a href="" className='mx-2'><u>Newsletters</u></a>
 
-                    <a href="" className='mx-2'>About US </a>
+                    <a href="" className='mx-2'><u>About US </u></a>
 
-                    <a href="" className='mx-2'>Blog</a>
+                    <a href="" className='mx-2'><u>Blog</u></a>
 
-                    <a href="" className='mx-2'>Tools</a>
+                    <a href="" className='mx-2'><u>Tools</u></a>
 
-                    <a href="" className='mx-2'>Publishers</a>
+                    <a href="" className='mx-2'><u>Publishers</u></a>
                     
-                    <a href="" className='mx-2'>Help</a>
+                    <a href="" className='mx-2'><u>Help</u></a>
 
-                    <a href="" className='mx-2'>Terms</a>
+                    <a href="" className='mx-2'><u>Terms</u></a>
 
-                    <a href="" className='mx-2'>private Policy</a>
+                    <a href="" className='mx-2'><u>private Policy</u></a>
 
                     <a href="" className='mx-2'>SiteMap</a>
 
                     
+                   
                     </div>
   
                 <div class="text-center p-3  ft" >
