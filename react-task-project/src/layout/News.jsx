@@ -27,8 +27,9 @@ function News(props) {
                                     
                                       <a href="">  
                                              <h4 class="boxx p-3 mt-5 text-light ">
-                                                  <i class="fa-regular fa-heart "><span>{res.heart +""}</span></i>      
-                                                   <i class="fa-light fa-message"></i>  +    
+                                                  <i class="fa-regular fa-heart "><span>{res.heart +" "}</span></i>      
+                                                  <i class="fa-regular fa-comment-dots"><span>{res.dot + ""}</span></i> 
+                                                  <i class="fa-solid fa-plus"></i>   
                                                     <i class="fa-solid fa-arrow-up-from-bracket"></i>
                                                     {res.add} 
                                             </h4></a>

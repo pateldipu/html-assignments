@@ -19,10 +19,10 @@ function Nav(props) {
                     <Link class="nav-link" to='Entermain'>ENTERMENETS</Link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">TECHNOLOGY</a>
+                    <Link class="nav-link" to='Technomain'>TECHNOLOGY</Link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">TRAVEL</a>
+                    <Link class="nav-link" to='Trevelmain'>TRAVEL</Link>
                 </li>
               
                 <li class="nav-item">

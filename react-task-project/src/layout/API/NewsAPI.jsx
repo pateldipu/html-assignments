@@ -9,7 +9,8 @@ const NewsAPI = [
         add: '' ,
         condition:'',
         data:'Axios-News',
-        heart:"4",
+        heart:"150",
+        dot:"38",
 
     },
     {
@@ -22,7 +23,8 @@ const NewsAPI = [
         add: '' ,
         condition:'6 hours ago ',
         data:'NBC News-Lawrence Hurley',
-        heart:"4",
+        heart:"1",
+        dot:" ",
 
     },
     {
@@ -35,7 +37,8 @@ const NewsAPI = [
         add: '' ,
         condition:'7 hours ago ',
         data:'USA TODAY-John Fritze',
-        heart:"4",
+        heart:"47",
+        dot:"12",
 
     },
     {
@@ -48,7 +51,8 @@ const NewsAPI = [
         add: '' ,
         condition:'Now ',
         data:'Kyiv Post',
-        heart:"4",
+        heart:"76",
+        dot:"150",
 
     },
     {
@@ -61,7 +65,8 @@ const NewsAPI = [
         add: '' ,
         condition:'7 hours ago ',
         data:'CBS News',
-        heart:"4",
+        heart:"114",
+        dot:"1",
 
     },
     {
@@ -74,7 +79,8 @@ const NewsAPI = [
         add: '' ,
         condition:'21 hours ago ',
         data:'ABC News-Aaron Katersky',
-        heart:"4",
+        heart:"71",
+        dot:"51",
 
     },
     {
@@ -87,7 +93,8 @@ const NewsAPI = [
         add: '' ,
         condition:'13 hours ago ',
         data:' NPR-Emma Bowman',
-        heart:"4",
+        heart:"27",
+        dot:"76",
 
     },
     {
@@ -100,7 +107,8 @@ const NewsAPI = [
         add: '' ,
         condition:'6 hours ago ',
         data:'NBC News-The Associated Press',  
-        heart:"4",
+        heart:"56",
+        dot:"114",
   
     },
     {
@@ -113,7 +121,8 @@ const NewsAPI = [
         add: '' ,
         condition:'1 day  ago ',
         data:'Rolling Stone-Adam Rawnsely',
-        heart:"4",
+        heart:"325",
+        dot:"71",
 
     },
     {
@@ -126,7 +135,8 @@ const NewsAPI = [
         add: '' ,
         condition:'1 day ago ',
         data:'CBS News',
-        heart:"4",
+        heart:"177",
+        dot:"28",
 
     },
     {
@@ -139,7 +149,8 @@ const NewsAPI = [
         add: '' ,
         condition:'2 hours ago ',
         data:'ABC News',
-        heart:"4",
+        heart:"3",
+        dot:"56",
 
     },
     {
@@ -152,7 +163,8 @@ const NewsAPI = [
         add: '' ,
         condition:'1 day ago ',
         data:'Kyiv Post-Steve Brown',
-        heart:"4",
+        heart:"137",
+        dot:"325",
 
     },
 

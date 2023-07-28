@@ -14,6 +14,8 @@ import {
 } from "react-router-dom"
 // import Usecasemain from './layout/Usecasemain';
 import Entermain from './layout/Entermain'
+import Technomain from './layout/Technomain';
+import Trevelmain from './layout/Trevelmain';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,6 +26,8 @@ root.render(
       <Routes>
         <Route path="/" element={<Main/>}></Route>
         <Route path="/Entermain" element={<Entermain/>}></Route>
+        <Route path="/Technomain" element={<Technomain/>}> </Route>
+        <Route path="/Trevelmain" element={<Trevelmain/>} > </Route>
       </Routes>
      </Router>
   </React.StrictMode>
