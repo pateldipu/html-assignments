@@ -1,12 +1,12 @@
-import React from 'react';
-import TrevelAPI from './API/TrevelAPI';
-import { useState } from 'react';
+import React, { useState } from 'react'
+import FoodAPI from './API/FoodAPI';
 
-function Trevel(props) {
-    const [API, setAPI] = useState(TrevelAPI);
+
+
+function Food() {
+    const [API, setAPI] = useState(FoodAPI);
     console.log(API);
     return (
-
         <>
             <div className="container-fluid" style={{ backgroundColor: ' #141414' }} >
                 <div className="container">
@@ -53,6 +53,4 @@ function Trevel(props) {
 
     )
 }
-
-
-export default Trevel;
+export default Food

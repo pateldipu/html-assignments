@@ -16,22 +16,24 @@ import {
 import Entermain from './layout/Entermain'
 import Technomain from './layout/Technomain';
 import Trevelmain from './layout/Trevelmain';
+import Foodmain from './layout/Foodmain'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-     {/* <Main/> */}
-     <Router>
+    {/* <Main/> */}
+    <Router>
       <Routes>
-        <Route path="/" element={<Main/>}></Route>
-        <Route path="/Entermain" element={<Entermain/>}></Route>
-        <Route path="/Technomain" element={<Technomain/>}> </Route>
-        <Route path="/Trevelmain" element={<Trevelmain/>} > </Route>
+        <Route path="/" element={<Main />}></Route>
+        <Route path="/Entermain" element={<Entermain />}></Route>
+        <Route path="/Technomain" element={<Technomain />}> </Route>
+        <Route path="/Trevelmain" element={<Trevelmain />} > </Route>
+        <Route path="/Foodmain" element={<Foodmain />} > </Route>
       </Routes>
-     </Router>
+    </Router>
   </React.StrictMode>
-  
+
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -1,4 +1,4 @@
-const TrevelAPI = [
+const FoodAPI = [
     {
         id: 1,
         img: 'img/TT-1.jpeg',
@@ -15,7 +15,7 @@ const TrevelAPI = [
     },
     {
         id: 2,
-        img: 'img/abc.jpg',
+        // img: 'img/abc.jpg',
         title: 'NBC News ',
         title1: 'flipped into Top Stories ',
         image: 'img/T-2.webp',
@@ -29,7 +29,7 @@ const TrevelAPI = [
     },
     {
         id: 3,
-        img: 'img/usa.jpeg',
+        // img: 'img/usa.jpeg',
         title: 'USA TODAY',
         title1: 'flipped into Top Stories ',
         image: 'img/T-3.webp',
@@ -161,4 +161,4 @@ const TrevelAPI = [
 
 
 ]
-export default TrevelAPI
+export default FoodAPI

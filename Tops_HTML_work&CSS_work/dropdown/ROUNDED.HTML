@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+  margin: 0px;
+  padding:0px;
+  font-family: sans-serif;
+}
+body{
+  display:flex;
+  justify-content:center;
+  height: 100vh;
+  /* align-items:center; */
+}
+img{
+  height: 400px;
+  width: 250px;
+  border-radius:5px; 
+  transition:.5s;
+}
+.gallery{
+  display:flex;
+}
+.card{
+  height: 300px;
+  margin: 50px;
+  border-radius: 100%;
+  box-shadow: 5px 5px 20px black;
+  overflow:hidden;
+  position: relative;
+}
+.description{
+  height:60px;
+  width: 250px;
+  padding:6px;
+  box-sizing: border-box;
+  position:absolute;
+  bottom:10px;
+  color:#FFF; 
+  transition: .5s;
+}
+h1{
+  margin:10px;
+  font-size: 25px;
+  text-align: center;
+  color: floralwhite;
+}
+/* p{
+  font-size: 14px;
+  margin:10px;
+  visibility:hidden;
+  opacity: 0;
+} */
+.card:hover{
+  cursor:pointer; 
+}
+.card:hover .description{
+  height:100px;
+  bottom:-3px;
+  background:rgba(0, 0, 0, -5);
+}
+/* .card:hover p{
+  opacity:1;
+  visibility: visible;  
+} */
+.card:hover img{
+  transform:scale(1.1);
+}
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <div class="card">
+        <img src="https://img.freepik.com/free-photo/view-brightly-colored-frog-nature_23-2150453188.jpg?t=st=1691128330~exp=1691131930~hmac=10a3a28429a4d384749a210b3aa1bed6fdc8c970715364865872d73a30b9878b&w=740" alt="">
+       
+        <div class="description">
+          <h1>Rana</h1>
+          <!-- <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex hic corporis animi harum? Nisi quis ipsum laborum a animi perspiciatis assumenda quae deserunt porro, soluta voluptatum molestiae. Eveniet, aliquam! Mollitia? </p> -->
+        </div>
+        </div>  
+        <div class="card">
+            <img src="https://img.freepik.com/free-photo/view-brightly-colored-frog-nature_23-2150453188.jpg?t=st=1691128330~exp=1691131930~hmac=10a3a28429a4d384749a210b3aa1bed6fdc8c970715364865872d73a30b9878b&w=740" alt="">
+           
+            <div class="description">
+              <h1>Rana</h1>
+              <!-- <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex hic corporis animi harum? Nisi quis ipsum laborum a animi perspiciatis assumenda quae deserunt porro, soluta voluptatum molestiae. Eveniet, aliquam! Mollitia? </p> -->
+            </div>
+            </div>  
+            
+        <div class="card">
+        <img src="https://img.freepik.com/free-photo/closeup-scarlet-macaw-from-side-view-scarlet-macaw-closeup-head_488145-3540.jpg?w=740&t=st=1691128835~exp=1691129435~hmac=cf4add8cc138b51f673199bef484a8b6e73e2a38bb2c66f19b0520fbd4231875" alt="">
+        <div class="description">
+          <h1>Guacamaya</h1>
+          <!-- <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex hic corporis animi harum? Nisi quis ipsum laborum a animi perspiciatis assumenda quae deserunt porro, soluta voluptatum molestiae. Eveniet, aliquam! Mollitia? </p> -->
+        </div>
+        </div>
+        
+        <div class="card">
+        <img src="https://img.freepik.com/free-photo/cute-chameleon-plant_23-2148949385.jpg?w=740&t=st=1691128794~exp=1691129394~hmac=0cfb7bc50fd1ff0983e2525c90cd2a3fbffd916aa374ae063d95232dcd2c4b35" alt="">
+        <div class="description">
+          <h1>Camaleon</h1>
+          <!-- <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex hic corporis animi harum? Nisi quis ipsum laborum a animi perspiciatis assumenda quae deserunt porro, soluta voluptatum molestiae. Eveniet, aliquam! Mollitia? </p> -->
+        </div>
+       
+            
+    </div> 
+
+
+</body>
+</html>
