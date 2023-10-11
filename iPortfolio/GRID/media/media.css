@@ -3,7 +3,7 @@
     .navbar{background-size: 100% 100%;}
     .navbar .nav{ width: 100%; background: pink;position: none; margin: 0 0 0 0; }
     .navbar .nav .aa{height: 70px; }
-    .navbar .nav .aa img{color: black; padding: 20px 0 0 10px}
+    .navbar .nav .aa img{color: black; padding: 10px 0 0 10px}
     .navbar .nav .icon {display:inline; height: 70px;  background-color: blue;} 
     .navbar .nav .icon i {display: block;font-size: 30px;padding: 20px 0 00 ;}
     .navbar .nav .b .A{display: none;}

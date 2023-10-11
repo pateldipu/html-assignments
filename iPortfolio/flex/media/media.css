@@ -239,7 +239,7 @@
 
    .background6{height:1700px;width: 100%;}
    .background6 .card1{padding: 0 0 0 20px;}
-   .background6 .card1 .test6{height: 170px; width: 360px;}
+   .background6 .card1 .test6{height: 170px; width: 3auto;}
    .background6 .card1 .test6  h1{font-size: 25px;}
    .background6 .card5{flex-wrap: wrap; gap: 10px; width: 300px;}
    .background6 .box4 .s{margin: 10px 0 0 150px;}
