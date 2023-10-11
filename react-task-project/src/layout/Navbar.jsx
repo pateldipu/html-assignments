@@ -1,42 +1,33 @@
 import React from 'react';
-import{
+import {
     Link,
-  } from "react-router-dom"
+} from "react-router-dom"
 
 function Navbar(props) {
     return (
         <>
-        
-          <nav class="navbar navbar-expand-lg navbar-ligh "  style={{backgroundColor:' #141414'}}>
-                <div class="container-fluid mybord">
-                        <a class="navbar-brand txt " href="#"><i class="fa-brands fa-flipboard"></i> Flipboard</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"> </span>
+            <nav class="navbar navbar-expand-lg" style={{ backgroundColor: 'black', maxWidth: '100vw' }}>
+                <div class="container-fluid">
+                    <a class="navbar-brand text-white fs-3" href="#"><i class="fa-brands fa-flipboard text-danger"></i> Flipboard</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
-           
-                    <div class="col-auto  d-flex gap-2">
-                    <ul class="nav">
-                        <li class="nav-item ">
-                            <a class="nav-link active" aria-current="page" href="#">Newsletters</a>
-                        </li>
-                    </ul>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div className='d-flex ms-auto'>
 
-                     
-                    <label for="inputPassword2" class="visually-hidden">search</label>
-                    <input type="text" class="form-control mb-3" id="search Flikborad" placeholder="search Flikborad"/>
-                    
-                    <div class="d-grid gap-2  d-md-flex justify-content-md-end ">
-                         <button class="btn btn-danger me-md-2  " type="button">signup</button>
-                          <button class="btn btn-light" type="button">LOGIN</button>
+                            <a class="nav-link active text-white" aria-current="page" href="#">Newsletters</a>
+
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search Flipboard" aria-label="Search" />
+                            </form>
+                            <button className='btn bg-danger text-white'>Sign Up</button>
+                            <button className='btn bg-white ms-2'>Login</button>
+                        </div>
                     </div>
-                
-                    
                 </div>
+            </nav>
 
-             </div>
-             
-       </nav>
-    
+
         </>
     );
 }
