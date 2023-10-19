@@ -23,7 +23,7 @@ function Navbar(props) {
                             <button className='btn bg-danger text-white'>Sign Up</button>
                             <button className='btn bg-white ms-2'>Login</button>
                         </div>
-                    </div>
+                    </div> 
                 </div>
             </nav>
 
