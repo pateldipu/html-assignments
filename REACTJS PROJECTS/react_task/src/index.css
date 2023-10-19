@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.panel-light,
+.panel-dark {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.panel-light {
+  color: #222;
+  background: #fff;
+}
+
+.panel-dark {
+  color: #fff;
+  background: rgb(23, 32, 42);
+}
+
+.button-light,
+.button-dark {
+  border: 1px solid #777;
+  padding: 5px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.button-dark {
+  background: #222;
+  color: #fff;
+}
+
+.button-light {
+  background: #fff;
+  color: #222;
+}
+
+
+.face
+{
+  height: 350px;
+  width: auto;
+
+  padding: 50px 0 0 0;
+  background-color: #777;
+  /* border-radius: 50%; */
+}
+.face .round
+{
+  height: 70px;
+  width: 70px;
+  position: relative;
+  background-color: #06390d;
+  border-radius: 50% 0 0 50%;
+  border: 2px solid #000;
+} 
+.round .half
+{
+  height: 79px;
+  width: 27px;
+  position: absolute;
+  margin-top: -5px;
+  margin-left: 55px;
+  clip-path: ellipse(25% 45% at 50% 50%);
+  /* border-radius: 50% 40% 50% 40%; */
+  background-color: rgb(63, 151, 63);
+  /* animation-timing-function: cubic-bezier(1, 0.22, 0, 1.05);
+animation-duration: 1.15s
+   */
+   /* clip-path: polygon(100% 35%,100% 60%,0% 60%,0% 35%); */
+   
+}
+.round .canvas
+{
+  height: 15px;
+  width: 50px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 71px;
+  border-radius: 0 100% 100% 00;
+  /* clip-path: polygon(100% 35%,100% 60%,0% 60%,0% 35%); */
+  background-color: #fcf5f5;
+  border: 2px solid #000;
+
+}
+.round .canvas1
+{
+  height: 15px;
+  width: 50px;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 71px;
+  border-radius: 0 100% 100% 00;
+  /* clip-path: polygon(100% 35%,100% 60%,0% 60%,0% 35%); */
+  background-color: #fcf5f5;
+  border: 2px solid #000;
+
+}
+
+.face .round1
+{
+  height: 70px;
+  width: 70px;
+  margin-left: 150px;
+  position: relative;
+ border-radius: 0 50% 50% 0;
+  background-color: #06390d;
+  border: 3px solid #000;
+
+}
+.round1 .half
+{
+  height: 79px;
+  width: 33px;
+  position: absolute;
+  margin-top: -7px;
+  margin-left: -17px;
+  clip-path: ellipse(25% 45% at 50% 50%);
+  /* border-radius: 50% 40% 50% 40%; */
+  background-color: rgb(63, 151, 63);
+  
+}
+.round1 .canvas
+{
+  height: 10px;
+  width: 12px;
+  position: absolute;
+  margin-top: 8px;
+  margin-left: -8px;
+  border-radius: 50%;
+  /* clip-path: polygon(100% 35%,100% 60%,0% 60%,0% 35%); */
+  background-color: #0a0606;
+  /* border: 2px solid #000; */
+
+}
+
+.round1 .canvas1
+{
+  height: 10px;
+  width: 12px;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: -8px;
+  border-radius: 50%;
+  /* clip-path: polygon(100% 35%,100% 60%,0% 60%,0% 35%); */
+  background-color: #0a0606;
+  /* border: 2px solid #000; */
+
+}
+
