@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: rgba(255, 255, 255, 1);
+  --pink: rgba(232, 67, 147, 1);
+  --black: rgba(0, 0, 0, 0.8);
+}
+
+html {
+  font-size: 17px;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  background-color: lightslategray;
+  /* height: 100%; */
+  /* width: auto; */
+  /* background-image: url(https://img.freepik.com/free-photo/natures-beauty-captured-colorful-flower-close-up-generative-ai_188544-8593.jpg?w=1060&t=st=1698385165~exp=1698385765~hmac=fe845e7fc07a226782228db9827a605be0c735b99ea5de8d568b771d443ee206); */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+}
+
+header {
+  text-align: center;
+  position: fixed;
+  width: 100vw;
+  background: var(--black);
+  color: var(--pink);
+}
+/* 
+.logo {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .logo a {
+  color: var(--pink);
+}
+
+a {
+  text-decoration: none;
+} */
+
+nav {
+  position: absolute;
+  text-align: left;
+  /* top: 100%; */
+  /* left:0; */
+  background: var(--black);
+  width: 100vw;
+  transform: scale(1, 0);
+  transform-origin: top;
+  transition: transform 400ms ease-in-out;
+}
+
+nav a {
+  color: var(--black);
+  font-size: 1rem;
+  opacity: 0;
+  transition: opacity 150ms ease-in-out;
+}
+
+nav a:hover {
+  border-top: 2px dotted var(--pink);
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  margin: 1.2rem;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+.nav-toggle-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 0.8rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  display: block;
+  background: white;
+  height: 1px;
+  width: 35px;
+  position: relative;
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  content: "";
+  position: absolute;
+}
+
+.nav-toggle-label span::before {
+  bottom: 7px;
+}
+
+.nav-toggle-label span::after {
+  top: 7px;
+}
+
+.nav-toggle:checked ~ nav {
+  transform: scale(1, 1);
+}
+
+.nav-toggle:checked ~ nav a {
+  opacity: 1;
+  transition: opacity 250ms ease-in-out 250ms;
+}
+
+@media screen and (min-width: 800px) {
+  .nav-toggle-label,
+  .nav-toggle {
+    display: none;
+  }
+  header {
+    display: grid;
+    grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+  }
+  .logo {
+    grid-column: 2 / 3;
+  }
+  nav {
+    grid-column: 3 / 4;
+    all: unset;
+  }
+  nav a {
+    opacity: 1;
+  }
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+    </style>
+</head>
+<body>
+    
+          <h1 class="logo"><a href="#">Navbar </a></h1>
+          <input type="checkbox" id="nav-toggle" class="nav-toggle">
+          <nav>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+          <label for="nav-toggle" title="Show navbar" class="nav-toggle-label">
+            <span></span>
+          </label>
+       
+</body>
+</html>
