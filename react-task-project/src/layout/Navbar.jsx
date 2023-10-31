@@ -6,24 +6,24 @@ import {
 function Navbar(props) {
     return (
         <>
-            <nav class="navbar navbar-expand-lg" style={{ backgroundColor: 'black', maxWidth: '100vw' }}>
-                <div class="container-fluid">
-                    <a class="navbar-brand text-white fs-3" href="#"><i class="fa-brands fa-flipboard text-danger"></i> Flipboard</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+            <nav className="navbar navbar-expand-lg" style={{ backgroundColor: 'black', maxWidth: '100vw' }}>
+                <div className="container-fluid">
+                    <a className="navbar-brand text-white fs-3" href="#"><i className="fa-brands fa-flipboard text-danger"></i> Flipboard</a>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <div className='d-flex ms-auto'>
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div classNameName='d-flex ms-auto'>
 
-                            <a class="nav-link active text-white" aria-current="page" href="#">Newsletters</a>
+                            <a className="nav-link active text-white  " aria-current="page" href="#" >Newsletters</a>
 
-                            <form class="d-flex" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Search Flipboard" aria-label="Search" />
+                            <form className="d-flex" role="search">
+                                <input className="form-control me-2" type="search" placeholder="Search Flipboard" aria-label="Search" />
                             </form>
-                            <button className='btn bg-danger text-white'>Sign Up</button>
-                            <button className='btn bg-white ms-2'>Login</button>
+                            <button classNameName='btn bg-danger text-white'>Sign Up</button>
+                            <button classNameName='btn bg-white ms-2'>Login</button>
                         </div>
-                    </div> 
+                    </div>
                 </div>
             </nav>
 

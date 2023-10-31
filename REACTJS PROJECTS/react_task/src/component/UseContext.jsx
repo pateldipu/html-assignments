@@ -15,7 +15,7 @@ const ThemeContext = React.createContext(themes.Dark);
 const StyledContainer = styled.div`
   background: ${(props) => props.theme.background};
   color: ${(props) => props.theme.foreground};
-  // other styles
+  // other styles 
 `;
 
 function UseContext(props) {
