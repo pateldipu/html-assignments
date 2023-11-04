@@ -1,29 +1,24 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import 'bootstrap5/src/css/bootstrap.min.css'
 import reportWebVitals from './reportWebVitals';
-// import Home from './component/home'
-// import About from './component/About.jsx'
-// import Navbar from './component/navbar'
-import Spinner from './component/spinner';
+import Navbar from './compo/Navbar.jsx';
+// import Todouereducre from './compo/Todouereducre';
+// import Colorchange from './compo/colorchange';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-
-
 root.render(
-
- <>
-  {/* <h1>this is my frist element</h1>
-  <p>this is para</p> */}
- {/* <Home/>
- <About/> */}
-{/* <Navbar/> */}
-<Spinner/>
-
- </>
+  // <React.StrictMode>
+  <>
+    {/* <App /> */}
+    <Navbar />
+    {/* <Todouereducre /> */}
+    {/* <Colorchange /> */}
+   {/* </React.StrictMode> */}
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function

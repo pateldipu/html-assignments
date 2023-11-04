@@ -7,23 +7,18 @@
 </head>
 <body>
     <script>
-    function stars(n){
-        var str = '';
-        for(var i=1; i<=n; i++){
-            for(var k=1; k<=n-i; k++){
-                str += "\t";
-            }
-            for(var j=1; j<=i; j++){
-                str += "*\t\t";
-            }
-            document.write(str);
-            document.write('<br/>'  );
-            str = "";
-        }
+
+        
+
+     let n = 5; 
+    for (let i = 1; i <= n; i++) { 
+    let str = "*"; 
+    let space = ' '; 
+    console.log(space.repeat((n - i)) + str.repeat(i * 2 - 1));
+    // document.write('<br/> <br/>'); 
     }
-    stars(5);
-   
     
+     
     </script>
 </body>
 </html>

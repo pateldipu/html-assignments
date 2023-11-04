@@ -21,5 +21,28 @@
         document.write( '<br/>' );
     }
     </script>
+
+
+<script>
+    let n = 5; // you can take input from prompt or change the value
+    let string = "";
+    // External loop
+    for (let i = 1; i <= n; i++) {
+      // printing spaces
+      for (let j = n; j > i; j--) {
+        string += " ";
+      }
+      // printing star
+      for (let k = 0; k < i * 2 - 1; k++) {
+        string += "*";
+      }
+      string += "<br>";
+    }
+    document.write(`<pre>${string}</pre>`);
+  </script>
+
+ 
+
+
 </body>
 </html>
