@@ -4,9 +4,11 @@ import './index.css';
 // import App from './App';
 import 'bootstrap5/src/css/bootstrap.min.css'
 import reportWebVitals from './reportWebVitals';
-import Navbar from './compo/Navbar.jsx';
-// import Todouereducre from './compo/Todouereducre';
-// import Colorchange from './compo/colorchange';
+// import Navbar from './compo/Navbar.jsx';
+import Todouereducre from './compo/Todouereducre';
+import Arrays from './compo/arrays'
+import Trigger from './compo/trigger'
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,10 +16,12 @@ root.render(
   // <React.StrictMode>
   <>
     {/* <App /> */}
-    <Navbar />
-    {/* <Todouereducre /> */}
-    {/* <Colorchange /> */}
-   {/* </React.StrictMode> */}
+    {/* <Navbar /> */}
+    <Todouereducre />
+    <Arrays />
+    <Trigger />
+
+    {/* </React.StrictMode> */}
   </>
 );
 
