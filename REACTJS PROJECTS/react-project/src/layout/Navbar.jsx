@@ -20,21 +20,21 @@ function Navbar(props) {
                 <Link className="nav-link" href=" ">Fetures</Link>
               </li>
               <li className="nav-item me-3">
-                <Link className="nav-link" href=" ">Pricing</Link>
+                <Link className="nav-link" href=" "> Pricing </Link>
               </li>
               <li className="nav-item me-3">
-                <Link className="nav-link" to='Usecase'>UseCases</Link>
+                <Link className="nav-link" to='Usecase'> UseCases </Link>
               </li>
               <li className="nav-item me-3">
-                <Link className="nav-link" href=" ">Request a Demo</Link>
-               </li>
+                <Link className="nav-link" href=" "> Request a Demo </Link >
+              </li>
               <li className="nav-item ">
-                <Link className="nav-link" href=" ">More</Link>
+                <Link className="nav-link" href=" "> More </Link>
               </li>
             </ul>
             <form className="d-flex">
-              <button className='btn'>Login</button>
-              <button className="btn mybtn" type="button">Signup</button>
+              <button className='btn'> Login </button>
+              <button className="btn mybtn" type="button" > Signup </button>
             </form>
           </div>
         </div>

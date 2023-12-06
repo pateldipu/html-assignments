@@ -1,0 +1,39 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "name": "json-server",
+      "email": "typicode",
+      "phone": "123456789",
+      "active": false
+    },
+    {
+      "id": 2,
+      "name": "sa",
+      "email": "dimpal@gmail.com",
+      "phone": "9852554111",
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "sandeep ",
+      "email": "sendy@gmail.com",
+      "phone": "6534569872",
+      "active": true
+    },
+    {
+      "id": 5,
+      "name": "err",
+      "email": "qw@gmail.comm",
+      "phone": "34567896555552",
+      "active": false
+    },
+    {
+      "id": 6,
+      "name": "vivek ",
+      "email": "vieevkk@gmail.com",
+      "phone": "84562318465",
+      "active": true
+    }
+  ]
+}

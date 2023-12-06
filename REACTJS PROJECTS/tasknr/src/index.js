@@ -1,28 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
-import 'bootstrap5/src/css/bootstrap.min.css'
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-// import Navbar from './compo/Navbar.jsx';
-import Todouereducre from './compo/Todouereducre';
-import Arrays from './compo/arrays'
-import Trigger from './compo/trigger'
-
-
+import "../node_modules/bootstrap/dist/css/bootstrap.css"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  // <React.StrictMode>
-  <>
-    {/* <App /> */}
-    {/* <Navbar /> */}
-    <Todouereducre />
-    <Arrays />
-    <Trigger />
-
-    {/* </React.StrictMode> */}
-  </>
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
