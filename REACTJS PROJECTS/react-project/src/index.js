@@ -13,6 +13,9 @@ import {
 
 } from "react-router-dom"
 import Usecasemain from './layout/USECASE/Usecasemain';
+import Pricingmain from './layout/PRICING/Pricingmain'
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,6 +26,8 @@ root.render(
       <Routes>
         <Route path="/" element={<Main />}></Route>
         <Route path="/Usecase" element={<Usecasemain />}></Route>
+        <Route path="/Pricing" element={<Pricingmain />}></Route>
+
       </Routes>
     </Router>
   </React.StrictMode>
