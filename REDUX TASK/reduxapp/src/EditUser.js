@@ -1,29 +1,35 @@
 import React, { useState } from 'react'
-import { useDispatch, useSelector } from 'react-redux';
-import { addUsers } from "./UserReducer";
-import { useNavigate } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux'
+import { useNavigate, useParams } from 'react-router-dom';
+import { updateUsers } from './UserReducer';
 
-function CreateUser() {
 
-    // const [id,setId] = useState("");
-    const [name, setName] = useState("");
-    const [email, setEmail] = useState("");
+function EditUser() {
 
     const dispatch = useDispatch();
-    const users = useSelector(state => state.users);
+    const { userid } = useParams();
 
+    console.log(userid)
     const navigate = useNavigate();
 
+    const users = useSelector(state => state.users);
+    console.log(users)
+
+    const exisitingUser = users.filter(user => user.id == userid)
+
+
+    // console.log(exisitingUser)
+    const { name, email } = exisitingUser[0];
+
+
+    const [uname, setUname] = useState(name)
+    const [uemail, setUemail] = useState(email)
+
     const handleClick = (e) => {
-
         e.preventDefault();
-        dispatch(addUsers({ id: users[users.length - 1].id + 1, name, email }));
-        navigate('/');
-
+        dispatch(updateUsers({ id: userid, name: uname, email: uemail }))
+        navigate('/')
     }
-
-
-
     return (
         <div>
 
@@ -32,7 +38,7 @@ function CreateUser() {
 
 
 
-                    <form onSubmit={handleClick} className='container my-5'     >
+                    <form onSubmit={handleClick} className='container my-5'>
                         <h4 className='my-2'>Create User</h4>
                         <div className='col-12'>
                             <label className="form-label">ID</label>
@@ -41,15 +47,12 @@ function CreateUser() {
 
                         <div className='col-12'>
                             <label className="form-label">Name</label>
-                            <input value={name} onChange={(e) => { setName(e.target.value) }} className='form-control'></input>
-
-                            {name.length === 0 && <span className='text-danger'>* Enter name</span>}
-
+                            <input value={uname} onChange={(e) => { setUname(e.target.value) }} className='form-control'></input>
                         </div>
 
                         <div className='col-12'>
                             <label className="form-label">Email</label>
-                            <input value={email} onChange={(e) => { setEmail(e.target.value) }} className='form-control'></input>
+                            <input value={uemail} onChange={(e) => { setUemail(e.target.value) }} className='form-control'></input>
                         </div>
 
                         <div className='col-12 my-3'>
@@ -66,4 +69,4 @@ function CreateUser() {
     )
 }
 
-export default CreateUser
+export default EditUser
