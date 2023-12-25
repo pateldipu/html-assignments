@@ -19,7 +19,7 @@ function Home() {
   }
 
   return (
-    <div>
+    <>
 
       <div className='container'>
 
@@ -66,7 +66,7 @@ function Home() {
       </div>
 
 
-    </div>
+    </>
   )
 }
 

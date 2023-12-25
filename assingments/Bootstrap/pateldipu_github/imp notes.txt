@@ -1,0 +1,100 @@
+DESIGN MATE (WVW SVG APP )
+
+Doremon.2003
+Doremon@2003=> facebooks ppassword
+
+*formik ma templte mle6 
+pRINCE PASSWORD : 1826
+
+
+1) npm i react-router-dom aa ak package 6 
+
+=> CTRL+C // CMD MA FARTHI OPEN THAI
+
+
+2)start karva mate npm start thai
+
+-router ma Link support kare 6 
+a support nathi kartu 
+
+
+-aakah div ne router ma mukvu pade 
+
+-routes ne route ni andar mukvnu aave 
+
+
+-router ma path and elemet aave 
+
+- react-router-dom ni oficiyall side 6 (aatlu compalsly add karvu pade  )
+  ex: import{
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link, 
+} from "react-router-dom"
+
+
+- aapde jetla page hoi aatla aapde route ma link karvi pade jetla joi aatla 
+
+- aama aapde ne class nathi support kartu className karvu pade 
+     - aama pan className ma (N) capital rakhvno hoi 
+
+
+3) npm i bootsratp file e dowloded 6 
+
+
+
+- bavu jaji link add karva mate function key use thai 6 
+
+
+- cd myapp kri ne je project hoi aam javai 
+- cd... return thai 6
+
+
+jsx. ma rsf thi thai 
+router routes ni andar j hoi 
+react ma consructor use kri to super() use karvu j pade
+	
+
+ JSONPLACE HOLDER API MATE
+<del></del> prive upar line aave 
+
+
+function coomponenet hamesha hooks ni sathe j karse
+
+
+usereducer thi timer banavnu 6
+aane api ne table ma covert karvnu 6 (map)
+
+
+
+
+netify ma web live thai
+
+email password: dimpy117@#
+
+aama build nam nu ak floder create karvnu aama direct changes thi jai 
+
+aane e j upload karvnu 
+
+
+
+
+
+
+
+
+API NI 2 METHOD 6 
+1) REST
+2) SHOP
+
+
+
+
+
+
+rest function ma (...) kri ne aapde multipal value pass kri saki 6i 
+
+
+
+

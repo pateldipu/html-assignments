@@ -50,6 +50,9 @@ function CreateUser() {
                         <div className='col-12'>
                             <label className="form-label">Email</label>
                             <input value={email} onChange={(e) => { setEmail(e.target.value) }} className='form-control'></input>
+
+                            {email.length === 0 && <span className='text-danger '>* Enter the email adddress </span>}
+
                         </div>
 
                         <div className='col-12 my-3'>
@@ -66,4 +69,9 @@ function CreateUser() {
     )
 }
 
+
+
 export default CreateUser
+
+
+// ACION NA DATA REDUCER MA DATA SORE THAI PCHI API THI 
