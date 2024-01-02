@@ -1,20 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import 'bootstrap5/src/css/bootstrap.min.css';
-import 'bootstrap5/src/js/bootstrap.bundle.min.js'
-import './Compo/layout.css';
-import Main from './Compo/main';
+// import App from './App';
+import Navbar from './COMPO/Navbar';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-
-    <Main />
-
+    {<Navbar />}
   </React.StrictMode>
 );
 

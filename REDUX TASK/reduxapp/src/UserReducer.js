@@ -12,6 +12,7 @@ const userReducerData = createSlice({
       console.log(state)
       state.push(action.payload)
     },
+
     updateUsers: (state, action) => {
       // console.log(action); //{type: users/adduser,payload}
       //  console.log(action.payload);  
