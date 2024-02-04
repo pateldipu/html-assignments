@@ -5,12 +5,32 @@ import './index.css';
 import Navbar from './COMPO/Navbar';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap5/src/css/bootstrap.min.css'   
+// import 'bootstrap5/css/bootstrap5.css'
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
+import './COMPO/Layout.css';
+import Slider from './COMPO/Slider';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+
+} from "react-router-dom"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
     {<Navbar />}
+    <Router>
+      <Routes>
+        <Route path="/" element={<Slider />}></Route >
+        {/* <Route path="/Usecase" element={< />}></Route> */}
+        {/* <Route path="/Pricing" element={< />}></Route> */}
+
+      </Routes>
+    </Router>
   </React.StrictMode>
 );
 
